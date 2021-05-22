@@ -1,0 +1,277 @@
+body{
+    background:#EDEDED;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.header-nav{
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items:center;
+    background: #FBB304;
+    height: 6rem;
+    padding-left: -2rem;
+    margin: -1rem -1rem 1rem -1rem;
+
+   width: 100%;
+    height: 100%;
+    padding-right: 5rem;
+
+}
+.topnav-container{
+    display: flex;
+    justify-content: space-around;
+    
+    flex-wrap: wrap;
+  
+    border-bottom: 0.009rem solid rgb(128, 123, 123);
+    border-bottom-style:ridge;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.019);
+    width: 100%;
+    
+    
+ }
+ .nav-item{
+    height: 100%;
+    min-width: 20rem;
+    width: 100%;
+    color: black;
+    margin-left: 1rem;
+ }
+
+
+
+.o-logo{
+margin: 1rem;
+padding: 1rem;
+width: 10rem;
+height: 4rem;
+
+}
+.o-icon-carrito{
+    width: 3rem;
+    height: 2.5rem;
+}
+.o-ingresar{
+    width: 3rem;
+    height: 3rem;
+}
+.actual-position{
+text-decoration: underline black;
+
+    
+}
+.buscador{
+    width: 100%;
+    height: 5vh;
+    border-style: none;
+    border-radius: 2em;
+}
+.carrito-ingresar-link{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+   
+    margin: 1rem;
+    margin-right: 5rem;
+ 
+}
+
+.btnImage{
+    margin-top: 0.5rem;
+    padding-left: 4rem;
+    width:9rem;
+    height:2.5rem;
+}
+
+
+.o-nav-contactenos{
+
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    margin: 1rem;
+   
+    padding-bottom: 6rem ;
+    background: #EDEDED;
+    width: 100%;
+
+    }
+
+    
+    
+.contactenos{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: left;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.019);
+    border: 0,2px solid #000;
+    padding:2rem 0rem 2rem 2rem;
+    width: 30rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    
+}
+
+
+.o-link-container {
+    display: flex;
+    justify-content: space-between;
+    min-width: 15rem;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 2rem;
+    margin-right: 4rem;
+}
+.o-btn {
+    width: 40%;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    margin: 1rem 0.5rem;
+    text-decoration: none;
+    background: #3483FA;   
+}
+.locales{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 45%;
+
+}
+
+iframe{
+    width: 100%;
+    height: 40rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.019);
+    border: 0,2px solid #000;
+
+}
+.credenciales{
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+    flex-direction: column;
+    margin-right: 2rem;
+    padding-right: 2rem;
+    }
+
+.input{
+
+width: 100%;
+border-top-style: none;
+border-left-style: none;
+border-right-style: none;
+border-bottom: 1px solid #a8a8a8;
+height: 2rem;
+}
+.desc{
+    height: 6rem;
+    border: 1px solid #a8a8a8;
+
+    
+}
+.buscador-container{
+    margin-left: 1rem;
+  
+    width: 30rem;
+   
+}
+
+
+
+
+.derechos{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+ 
+   padding-left: 1rem;
+    
+   
+}
+
+
+.derechos-Minticris{
+    color:white;
+   
+   
+
+
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 20rem;
+    background-color: #FBB304;
+    padding-right: 5rem;
+    margin: -1rem -1rem -1rem -1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    
+}
+.column{
+    padding-left: 1rem;
+}
+.column-title{
+    font-size: 1rem;
+}
+.card-text{
+    font-size: 1rem;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+
+}
+li{
+    margin-top: 1rem;
+    margin-left: -2rem;
+    
+}
+.icon{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+
+
+.ingresar-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items:flex-end;
+    
+    
+
+
+}
+.redes-sociales-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    
+    width: 100%;
+}

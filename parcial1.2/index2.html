@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Supermercado la gran Colombia - Miinticris </title>
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/841492e065.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script2.js"></script>
+
+</head>
+</html>
+
+<body>
+     <!-- Header -->
+  <header>
+    <div class="headerNav">
+
+            <div class="imagen">
+            <img class="s-logo" src="img/Log-LaGranColombia .png" alt="Logo de La Gran Colombia">
+
+            </div>
+
+        <div class="buscadorContainer">
+            <input class="buscador" type="text" placeholder="¿Qué estás buscando?..">
+        </div>
+
+        <div class="carritoIngresarLink">
+
+            <div class="container-carrito">
+
+                <a href="">
+                <img class="s-iconCarrito" src="img/Bt/Bt_Carrito.png" alt="Icono de carrito de compras" href="">
+                </a>
+            </div>
+
+                <div class="ingresarContainer">
+                    <a href="Inicio-Sesión.html" >
+                    <img class="btnImage" type="image" alt="Ingresar" src="img/Bt/Bt_Ingresar.png" >
+                </a>
+                </div>
+        </div>
+    </div>
+</header>
+<!-- Header -->
+
+   <!--Top Nav-->
+   <div class="topNav">
+    <ul class="s-items">
+        <a id="navItem1" class="s-navItem" href="#">Inicio</a>
+        <a id="navItem2" class="s-navItem" href="#">Productos</a>
+        <a id="navItem3" class="s-navItem" href="#">Quienes Somos</a>
+        <a id="navItem4" class="s-navItem" href="#">Contactenos</a>
+    </ul>
+</div>
+<!------->
+ 
+    <!-- CONTENIDO  -->
+    <div class="ofertas">
+      <div class="containerCards">
+        <div>
+          <img src="img/interfaz2/Bt_Maanza.png" alt="Manzana" style="width:100%">
+          <div class="container">
+            <h4><b>Manzana</b></h4>
+            <p>$ 1000</p>
+          </div>
+        </div>
+
+        <div>
+          <img src="img/interfaz2/Bt_Banano.png" alt="Banano" style="width:100%">
+          <div class="container">
+            <h4><b>Banano</b></h4>
+            <p>$ 1000</p>
+          </div>
+        </div>
+
+        <div>
+          <img src="img/interfaz2/Bt_Kiwi.png" alt="Kiwi" style="width:100%">
+          <div class="container">
+            <h4><b>Kiwi</b></h4>
+            <p>$ 1000</p>
+          </div>
+        </div>
+      </div>      
+    </div>
+
+    
+    <div class="contenedorNav">
+      <div class="mediumNav">
+        <ul class="s-items">
+          <a id="navItem1" class="s-navItem" href="#">Búsqueda rápida: </a>
+          <a id="navItem2" class="s-navItem" href="#">Precio</a>
+          <a id="navItem3" class="s-navItem" href="#">Filtro 2</a>
+          <a id="navItem4" class="s-navItem" href="#">Filtro 3</a>
+        </ul>
+    </div>
+    </div>
+    
+
+    <div class="containerCards2">
+        <div class="firstRow">
+          <div class="card">
+              <img class="card-img" src="img/interfaz2/Img-orange.png" alt="Naranja" style="width:100%">
+            <div class="container">
+              <h4><b>Naranja</b></h4>
+              <p>$ 1000</p>
+
+              <div class="number">        
+                <button type="button" class="button operacion" onclick="resta()">-</button>
+                <input id="numBox1" class="s-ints" type="text" name="inNum2" value="1"><br>
+                <button type="button" class="button operacion" onclick="suma()">+</button>         
+              </div>
+
+            </div>
+          </div>          
+
+          <div class="card">
+            <img class="card-img" src="img/interfaz2/012-grapes.png" alt="Uva" style="width:100%">
+            <div class="container">
+              <h4><b>Uva</b></h4>
+              <p>$ 1000</p>
+
+              <div class="number">        
+                <button type="button" class="button operacion" onclick="resta()">-</button>
+                <input id="numBox1" class="s-ints" type="text" name="inNum2" value="1"><br>
+                <button type="button" class="button operacion" onclick="suma()">+</button>         
+              </div>
+
+            </div>
+          </div>
+  
+          <div class="card">
+            <img class="card-img" src="img/interfaz2/001-apple.png" alt="Manzana" style="width:100%">
+            <div class="container">
+              <h4><b>Manzana</b></h4>
+              <p>$ 1000</p>
+              <img class="card-img" src="img/interfaz1/Bt_OfertaEspecial.png" alt="Card image">
+
+              <div class="number">        
+                <button type="button" class="button operacion" onclick="resta()">-</button>
+                <input id="numBox1" class="s-ints" type="text" name="inNum2" value="1"><br>
+                <button type="button" class="button operacion" onclick="suma()">+</button>         
+              </div>
+
+            </div>
+          </div>          
+        </div>        
+
+        <div class="firstRow">
+          <div class="card">
+            <img class="card-img" src="img/interfaz2/030-watermelon.png" alt="Sandia" style="width:100%">
+            <div class="container">
+              <h4><b>Sandia</b></h4>
+              <p>$ 1000</p>
+              <img class="card-img" src="img/interfaz1/Bt_OfertaEspecial.png" alt="Card image">
+
+              <div class="number">        
+                <button type="button" class="button operacion" onclick="resta()">-</button>
+                <input id="numBox1" class="s-ints" type="text" name="inNum2" value="1"><br>
+                <button type="button" class="button operacion" onclick="suma()">+</button>         
+              </div>
+
+            </div>
+          </div>
+  
+          <div class="card">
+            <img class="card-img" src="img/interfaz2/013-apple.png" alt="Manzana verde" style="width:100%">
+            <div class="container">
+              <h4><b>Manzana verde</b></h4>
+              <p>$ 1000</p>
+
+              <div class="number">        
+                <button type="button" class="button operacion" onclick="resta()">-</button>
+                <input id="numBox1" class="s-ints" type="text" name="inNum2" value="1"><br>
+                <button type="button" class="button operacion" onclick="suma()">+</button>         
+              </div>
+
+            </div>
+          </div>
+  
+          <div class="card">
+            <img class="card-img" src="img/interfaz2/015-kiwi.png" alt="Kiwi" style="width:100%">
+            <div class="container">
+              <h4><b>Kiwi</b></h4>
+              <p>$ 1000</p>
+              <img class="card-img" src="img/interfaz1/Bt_OfertaEspecial.png" alt="Card image">
+
+              <div class="number">        
+                <button type="button" class="button operacion" onclick="resta()">-</button>
+                <input id="numBox1" class="s-ints" type="text" name="inNum2" value="1"><br>
+                <button type="button" class="button operacion" onclick="suma()">+</button>         
+              </div>
+
+            </div>
+          </div>
+        </div>        
+    </div>
+  </div>
+</body>   
+    <!-- FIN DEL CONTENIDO -->
+
+    <!--Footer-->
+    <footer>
+
+      <div class="footerDiv">
+
+          <div class="Lcolumn">
+              <h3 class="columnTitle">Categoría</h3>
+              
+          <ul style="list-style-type:none;">
+              <li><a  class="card-text" href="#">Supermercado</a></li>
+              <li><a  class="card-text" href="#">Ofertas</a></li>
+              <li><a  class="card-text" href="#">Productos</a></li>
+              <li><a  class="card-text" href="#">Farmacia</a></li>
+          </ul>
+
+          </div>
+                      
+          <div class="Mcolumn">
+              <h3 class="columnTitle"> Información de interés</h3>
+
+              <ul style="list-style-type:none;">
+                  <li><a  class="card-text" href="#" >Términos y condiciones</a></li>
+                  <li><a  class="card-text" href="#" >Contactenos</a></li>
+                  <li><a  class="card-text" href="#" >Quienes somos</a></li>
+              </ul>
+
+          </div>
+                      
+          <div class="Rcolumn">
+              <h3 class="columnTitle">Síguenos</h3>
+
+              <ul style="list-style-type:none;">
+                  <li>
+                      <a href="https://www.youtube.com/channel/UCBjKZq1V936v6GdpTW053sw">
+                      <img class="icon" src="img/002-youtube.png" alt="icono de Youtube"> 
+                  </a>
+                  </li>
+
+                  <li>
+                      <a href="https://www.facebook.com/supermercadoslagrancolombia/">
+                      <img class="icon" src="img/045-facebook.png" alt="icono de Facebook">
+                  </a>
+                </li>
+              </ul>
+          </div>
+      </div>
+
+          <div class="derechos">             
+              <div class="derechosMinticris">
+                  <br>
+                  <p>@2021 Todos los derechos reservados. Minticris. <br>
+                      </p>
+              </div>
+          </div>      
+  </footer>
+  <!------->

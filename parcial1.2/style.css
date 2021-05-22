@@ -1,0 +1,239 @@
+body {
+    padding: 0 0 0rem 0;
+    background-color: rgb(226, 225, 225);
+}
+/*---------------------------------*/
+
+/* -- navbar style--*/
+header {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    background-color: rgba(251, 179, 4, 1);
+    padding: 0.5rem 1rem;
+    justify-content: space-between;
+    color: white;
+}
+
+/* logo del header */
+.o-imgLogo {
+    width: 10rem;
+    padding: 1em;
+}
+.button{    
+    /*background-repeat:no-repeat; --> No borrar*/
+    border: none;
+    color: rgba(22, 109, 138, 1);    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;    
+    cursor: pointer;
+    transition-duration: 0.4s;
+
+    border-radius: 2rem / 5rem;
+}
+.operacion{
+    border-radius: 0px;
+    height: 2rem;
+    font-size: 1.4rem;
+    width: 3rem;
+    color: black;
+}
+.headerNav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items:center;
+    background: #FBB304;
+    height: 100%;
+    width: 100%;
+    margin: -1rem -1rem 1rem -1rem;
+}
+.s-logo{
+margin: 1rem;
+padding: 1rem;
+width: 10rem;
+height: 4rem;
+}
+.s-iconCarrito{
+    width: 3rem;
+    height: 2.5rem;
+}
+.s-ingresar{
+    width: 3rem;
+    height: 3rem;
+}
+.buscadorContainer{
+    width: auto;
+    height: 2rem;
+}
+.buscador{
+    width: 20rem;
+}
+.carritoIngresarLink{
+    display: flex;
+    justify-content: space-around;
+    min-width: 15rem;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1rem;
+    padding-right: 10rem;
+    background-color: #FBB304;
+
+}
+.btnImage{
+    margin-top: 0.5rem;
+    padding-left: 4rem;
+    width:9rem;
+    height:2.5rem;
+}
+
+.col-sm-2 searchBar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.navbarEnd{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    align-items:flex-end;
+    
+}
+.s-navItem{
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+}
+.s-navItem:hover {
+    color: rgba(22, 109, 138, 1);
+}
+.row-mr-auto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    height: 100%;
+    width: 100%;}
+
+/*---------------------------------*/
+
+/* top navigation bar */
+.topNav {
+    background-color: rgba(251, 249, 241, 1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.topNav a {
+    float: left;
+    display: block;
+    color:rgba(22, 109, 138, 1);
+    text-align: center;
+    text-decoration: none;
+}
+.topNav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+/*---------------------------------*/
+
+/*--Contenido tarjeta--*/
+.cardContent{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around   ;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 1.5rem 3rem 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 2rem 2rem 0 0;
+    padding: 1rem 5rem;
+}
+.cardImages{
+    width: 20%;
+}
+.cardTextManzana{
+    align-items: center;
+    
+}
+.number{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:left;
+}
+.s-ints{
+    text-align: center;
+}
+/*---------------------------------*/
+
+/*-- Footer --*/
+.derechos{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.derechosMinticris{
+    color:white;
+    font-family: 'Roboto', sans-serif;
+}
+.footerDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+footer{
+    background-color: #FBB304;
+    height: 100%;
+    width: 100%;
+    padding-bottom: -1rem;
+}
+.columnTitle{
+    font-size: 1rem;
+}
+.card-text{
+    font-size: 1rem;
+    color:white;
+}
+a{
+    text-decoration: none;
+}
+li{
+    margin-top: 1rem;
+    margin-left: -2rem;
+}
+.icon{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.card1{
+    background-color: rgba(251, 179, 4, 1);
+    color: white;
+    border-color: rgba(251, 179, 4, 1);
+}
+.s-cardItem{    
+    text-decoration: none;
+    padding: 1em;
+}
+.s-cardItem:hover {
+    color: rgb(255, 255, 255);
+}
+.s-LogoMiinticris{
+    width: 6.5rem;
+    height: 7rem;
+    background-color:  rgba(251, 179, 4, 1);
+}
+.s-cardText{
+    font-size: 2rem;
+    line-height: 1rem;
+}
+/*---------------------------------*/

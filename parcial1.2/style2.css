@@ -1,0 +1,279 @@
+body {
+    padding: 0 0 0rem 0;
+    background-color: rgb(226, 225, 225);
+}
+/*---------------------------------*/
+/* -- navbar style--*/
+.button{    
+    /*background-repeat:no-repeat; --> No borrar*/
+    border: none;
+    color: rgba(22, 109, 138, 1);    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;    
+    cursor: pointer;
+    transition-duration: 0.4s;
+
+    border-radius: 2rem / 5rem;
+}
+
+.operacion{
+    border-radius: 0rem;
+    height: 2rem;
+    font-size: 1.4rem;
+    width: 3rem;
+    color: black;
+}
+.headerNav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items:center;
+    background: #FBB304;
+    height: 100%;
+    width: 100%;
+    margin: -1rem -1rem 1rem -1rem;
+}
+
+.s-logo{
+margin: 1rem;
+padding: 1rem;
+width: 10rem;
+height: 4rem;
+}
+.s-iconCarrito{
+    width: 3rem;
+    height: 2.5rem;
+}
+.s-ingresar{
+    width: 3rem;
+    height: 3rem;
+}
+.buscadorContainer{
+    width: auto;
+    height: 2rem;
+}
+.buscador{
+    width: 20rem;
+}
+.carritoIngresarLink{
+    display: flex;
+    justify-content: space-around;
+    min-width: 15rem;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1rem;
+    padding-right: 10rem;
+    background-color: #FBB304;
+
+}
+.btnImage{
+    margin-top: 0.5rem;
+    padding-left: 4rem;
+    width:9rem;
+    height:2.5rem;
+}
+
+/* logo del header */
+.s-imgLogo {
+    width: 10rem;
+    padding: 1em;
+}
+.col-sm-2 searchBar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.navbarEnd{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    align-items:flex-end;
+    
+}
+.s-navItem{
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+}
+.s-navItem:hover {
+    color: rgba(22, 109, 138, 1);
+}
+/*---------------------------------*/
+/* top navigation bar */
+.topNav {
+    background-color: rgba(251, 249, 241, 1);
+    justify-content: center;
+    margin: 0rem -1rem 1rem -1rem;
+    padding-right: 2rem;
+    width: 100%;
+}
+.topNav a {
+    float: left;
+    display: block;
+    color:rgba(22, 109, 138, 1);
+    text-align: center;
+    padding: 2rem 3rem;
+    text-decoration: none;
+}
+.topNav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.s-items{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-around;
+
+}
+/*---------------------------------*/
+
+
+/*--Contenido compras--*/
+.ofertas{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;   
+    width: 100%;      
+}
+.containerCards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+.containerCards2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.card{
+    min-width: 10rem;
+    max-width: 15rem;
+    height: auto;
+}
+.firstRow{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    order:1;
+    max-width: 60rem;
+    min-width: 10rem;
+}
+
+.mediumNav a{
+    float: left;
+    display: block;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    padding: 1rem 3rem;
+    text-decoration: none;
+}
+.mediumNav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.col-sm-8{
+    display: flex;
+    align-items: center;
+
+}
+.mediumNav{    
+    background-color:rgb(208, 112, 221);
+    justify-content: center;
+    margin: 0rem -1rem 1rem -1rem;
+    padding-right: 2rem;
+    width: 100%;
+}
+.contenedorNav{
+    align-items: center;
+    width: 100%;
+}
+.number{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:left;
+}
+.s-ints{
+    text-align: center;
+}
+/*---------------------------------*/
+
+/*-- Footer --*/
+.derechos{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.derechosMinticris{
+    color:white;
+    font-family: 'Roboto', sans-serif;
+}
+.footerDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+footer{
+    background-color: #FBB304;
+    height: 100%;
+    width: 100%;
+    padding-bottom: -1rem;
+}
+.columnTitle{
+    font-size: 1rem;
+}
+.card-text{
+    font-size: 1rem;
+    color:white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+li{
+    margin-top: 1rem;
+    margin-left: -2rem;
+
+}
+.icon{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.card1{
+    background-color: rgba(251, 179, 4, 1);
+    color: white;
+    border-color: rgba(251, 179, 4, 1);
+}
+.s-cardItem{    
+    text-decoration: none;
+    padding: 1em;
+}
+.s-cardItem:hover {
+    color: rgb(255, 255, 255);
+}
+.s-LogoMiinticris{
+    width: 6.5rem;
+    height: 7rem;
+    background-color:  rgba(251, 179, 4, 1);
+}
+.s-cardText{
+    font-size: 2rem;
+    line-height: 1rem;
+}
+/*---------------------------------*/
+/*---------------------------------*/
+
+
+  
