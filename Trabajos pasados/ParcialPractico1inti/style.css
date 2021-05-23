@@ -1,32 +1,52 @@
 
 .o-nav{
     width: 97.9%;
-    height: 5rem;
-    background-color: rgb(251, 179, 4);
+    height: 3rem;
+    background-color: rgba(251, 116, 62, 1);
     margin: -1rem;
     padding: 0.5rem;
     display: flex;
     justify-content: space-between;
-    padding-top: 1rem;
+    margin-bottom: 2rem;    
     padding-left: 2rem;
     padding-right: 2rem;   
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .o-logo{
-    height: 4rem;
+    height: 3.5rem;
     width: 14rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
+    
 }
+.o-buscar{
+height: 3.5rem;
+width: 35%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-left: 10rem;
+}
+#buscar{
+    height: 1rem;
+    width: 90%;
+    border-radius: 15px;
+    border-color: white;
+    outline: none;
+    padding: .5rem;
+    border: 0;
+}
+
 #o-logo1{
     height: 2.2rem;
     width: 6rem;
     padding: 0.5rem;
 }
 .o-logo2{
-    height: 2.2rem;
-    width: 7rem;
+    height: 1.5rem;
+    width: 6.5rem;
     background-color: white;
     padding: 0.5rem;
     border-radius: 2rem;
@@ -34,24 +54,25 @@
     justify-content: space-around;
     align-items: center;
 }
+
 /** **/
 .o-enlaces{
     height: 5rem;
-    width: 101.2%;
-    margin-top: 2rem;
+    width: 100%;
     margin: -1rem;
+    margin-bottom: 2rem;
     display: flex;
     align-items: center;
+    justify-content: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .o-enlaces2{
     height: 2.5rem;
-    width: 25rem;    
+    width: 30%;    
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-left: 9rem;
     align-items: center;
-
 }
 h3{
     font-size: 1.5rem;
@@ -63,13 +84,14 @@ h3{
     margin: -1rem;
     display: flex;
     justify-content: center;
+
+    clip-path: inset(0px 0px 7px 0px);
 }
 .o-productos{
-    height: 16rem;
-    width: 101.2%;
-    background-color: rgba(254, 245, 190, 30%);
+    height: 40rem;
+    width: 101%;
     margin: -1rem;
-    margin-top: 2rem;
+    margin-top: 4rem;
     display: flex;
     align-items: center;
     flex-direction: column;    
@@ -78,78 +100,43 @@ h3{
     display: flex;
     justify-content: space-between;
     height: 7rem;
-    width: 80%;
+    width: 90%;
     padding: 1rem;
+    margin-top: 1rem;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .o-productos1{
-    height: 6rem;
-    width: 6rem;
-    background: rgb(255,159,149);
-    background: linear-gradient(180deg, rgba(255,159,149,1) 35%, rgba(0,212,255,0) 100%);
-    border-radius: 1rem;
+    height: 20rem;
+    width: 30rem;
     display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 1rem;
     
+    flex-direction: column;
 }
 
-.o-productos2{
-    height: 6rem;
-    width: 6rem;
-    background: rgb(255,214,159);
-    background: linear-gradient(180deg, rgba(255,214,159,1) 35%, rgba(0,212,255,0) 100%);
-    border-radius: 1rem;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 1rem;
+#ourProducts{
+    border-radius: 20px;
+}
+h3{
+    font-size: 2rem;
+}
+#p-white{
     
+    color: white;
+    position: absolute;
+    font-size: 2rem;
+    padding-left: 2rem;
 }
-.o-productos3{
-    height: 6rem;
-    width: 6rem;
-    background: rgb(255,243,133);
-    background: linear-gradient(180deg, rgba(255,243,133,1) 35%, rgba(0,212,255,0) 100%);
-    border-radius: 1rem;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 1rem;
-}
-.o-productos4{
-    height: 6rem;
-    width: 6rem;
-    background: rgb(194,227,158);
-    background: linear-gradient(180deg, rgba(194,227,158,1) 35%, rgba(0,212,255,0) 100%);
-    border-radius: 1rem;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 1rem;
-}
-.o-productos5{
-    height: 6rem;
-    width: 6rem;
-    background: rgb(171,233,255);
-    background: linear-gradient(180deg, rgba(171,233,255,1) 35%, rgba(0,212,255,0) 100%);
-    border-radius: 1rem;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 1rem;
-}
+
 
 .o-info{
     height: 22rem;
     width: 99%;
-    
     margin: -1rem;
     margin-top: 2rem;
     padding: 1rem;
     display: flex;    
     justify-content: space-around;
+    margin-bottom: 4rem;
 
 
 }
@@ -164,16 +151,27 @@ h3{
 }
 h4{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+#p-orange{
+    font-size: 1rem;
+    color: rgba(251, 116, 62, 1);
+}
+#p-black{
+    color: black;
+}
+p{
+    color: white;
 }
 .o-footer{
     width: 100.4%;
     height: 15rem;
-    background-color: rgb(251, 179, 4);
+    background-color: rgba(251, 116, 62, 1);
     margin: -1rem;
     padding: 0.5rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-between;    
 }
 
 .o-texto{
@@ -184,27 +182,33 @@ h4{
     justify-content: space-between;
     padding-left: 10rem;
 }
+
 .o-redes{
     width: 13rem;
     height: 12rem;
-    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
-.o-enlaces3{
-    width: 120%;
-    height: 3;
-    
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    justify-content: flex-start;
     
 }
 
+.o-enlaces3{
+    width: 120%;
+    height: 3;    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: flex-start;   
+   
+}
+
+#redes{
+    margin: .5rem;
+}
+
 .o-graddy{
-    font-size: 0.6rem;
+    margin-top: 2rem;
+    font-size: 1rem;
     padding-left: 10rem;
 
 }
