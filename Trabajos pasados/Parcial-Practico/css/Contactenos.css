@@ -10,7 +10,7 @@ body{
     justify-content: space-between;
     flex-wrap: wrap;
     align-items:center;
-    background: #FBB304;
+    background:rgba(251, 116, 62, 1);
     height: 6rem;
     padding-left: -2rem;
     margin: -1rem -1rem 1rem -1rem;
@@ -33,59 +33,13 @@ body{
     
     
  }
- .nav-item{
-    height: 100%;
-    min-width: 20rem;
-    width: 100%;
-    color: black;
-    margin-left: 1rem;
- }
 
-
-
-.o-logo{
-margin: 1rem;
-padding: 1rem;
-width: 10rem;
-height: 4rem;
-
-}
-.o-icon-carrito{
-    width: 3rem;
-    height: 2.5rem;
-}
-.o-ingresar{
-    width: 3rem;
-    height: 3rem;
-}
 .actual-position{
-text-decoration: underline black;
+text-decoration: underline rgba(251, 116, 62, 1);
 
-    
-}
-.buscador{
-    width: 100%;
-    height: 5vh;
-    border-style: none;
-    border-radius: 2em;
-}
-.carrito-ingresar-link{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row;
-   
-    margin: 1rem;
-    margin-right: 5rem;
- 
+
 }
 
-.btnImage{
-    margin-top: 0.5rem;
-    padding-left: 4rem;
-    width:9rem;
-    height:2.5rem;
-}
 
 
 .o-nav-contactenos{
@@ -146,6 +100,7 @@ text-decoration: underline black;
 }
 .locales{
     display: flex;
+    margin-top: -2rem;
     justify-content: center;
     flex-direction: column;
     text-align: center;
@@ -223,7 +178,7 @@ height: 2rem;
     font-family: 'Roboto', sans-serif;
     width: 100%;
     height: 20rem;
-    background-color: #FBB304;
+    background:rgba(251, 116, 62, 1);
     padding-right: 5rem;
     margin: -1rem -1rem -1rem -1rem;
     padding-bottom: 1rem;
@@ -254,7 +209,11 @@ li{
     width: 1.5rem;
     height: 1.5rem;
 }
-
+#p-orange{
+    font-size: 1rem;
+    color: rgba(251, 116, 62, 1);
+    
+}
 
 
 .ingresar-container{
@@ -274,4 +233,83 @@ li{
     align-items: flex-start;
     
     width: 100%;
+}
+.o-nav{
+    width: 97.9%;
+    height: 3rem;
+    background-color: rgba(251, 116, 62, 1);
+    margin: -1rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;    
+    padding-left: 2rem;
+    padding-right: 2rem;   
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.o-logo{
+    height: 3.5rem;
+    width: 14rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+.o-buscar{
+height: 3.5rem;
+width: 35%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-left: 10rem;
+}
+#buscar{
+    height: 1rem;
+    width: 90%;
+    border-radius: 15px;
+    border-color: white;
+    outline: none;
+    padding: .5rem;
+    border: 0;
+}
+
+#o-logo1{
+    height: 2.2rem;
+    width: 6rem;
+    padding: 0.5rem;
+}
+.o-logo2{
+    height: 1.5rem;
+    width: 6.5rem;
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/** **/
+.o-enlaces{
+    height: 5rem;
+    width: 100%;
+    margin: -1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.o-enlaces2{
+    height: 2.5rem;
+    width: 30%;    
+    display: flex;
+    justify-content: space-around;
+    margin-left: 9rem;
+    align-items: center;
+}
+h3{
+    font-size: 1.5rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
