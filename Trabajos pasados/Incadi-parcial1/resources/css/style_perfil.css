@@ -275,21 +275,29 @@ body {
 
 /*---------------------------------*/
 /*-- Footer --*/
-footer{
-    margin-left: -2rem;
-    margin-right: -20rem;
-    width: 120rem;
-    padding-bottom: -1rem;
-}
-
 .ig-footer{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: space-between;
     color: white;
     font-family: 'Roboto', sans-serif;
-    background-color:  #FBB304;
-    padding: 50px 16px;
+    width: 100%;
+    height: 20rem;
+    background-color: #FBB304;
+    padding-right: 5rem;
+    margin: -1rem -1rem -1rem -1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    
+}
+.ig-column{
+    padding-left: 1rem;
+}ç
+.ig-column-title{
+    font-size: 1rem;
+}ç
+.ig-card-text{
+    font-size: 1rem;
 }
 
 a{
@@ -300,32 +308,9 @@ a{
 li{
     margin-top: 1rem;
     margin-left: -2rem;
-    color: white;
-}
-
-
-.ig-derechos{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.igderechos-Minticris{
-    color:white;
-    font-family: 'Roboto', sans-serif;
 }
 
 .ig-icon{
-    width: 2rem;
-    height: 2rem;
-    border-radius: 8px;
+    width: 1.5rem;
+    height: 1.5rem;
 }
-
-.column-title{
-    font-size: 1rem;
-}
-
-
-
-
