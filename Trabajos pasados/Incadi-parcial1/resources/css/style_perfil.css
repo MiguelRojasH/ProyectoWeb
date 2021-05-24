@@ -24,6 +24,9 @@ body {
     padding-right: 2rem;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+.complet{
+    padding-left:15rem;
+}
 
 .ig-logo{
     height: 3.5rem;
@@ -155,6 +158,8 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.019);
     border: 0,2px solid #000;
     padding:2rem 0rem 0rem 2rem;
+    width: 50%;
+    margin-left: 20rem;
   
 }
 
@@ -198,10 +203,16 @@ body {
 
 .ig-credenciales{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    
+   
+    
 }
-
+.ig-credencialesIzq{
+    padding-left:6rem;
+}
+.ig-credencialesDer{
+    padding-left:10rem
+}
 .ig-input{
     width: 100%;
     border-top-style: none;
@@ -222,13 +233,14 @@ body {
 }
 
 .ig-btn {
-    width: 40%;
+    width:10rem;
     height: 2.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 0.5rem;
     margin: 1rem 0.5rem;
+    margin-left:0rem;
     text-decoration: none;
     background-color: rgba(251, 116, 62, 1);  
     
@@ -304,4 +316,96 @@ li{
 .icon{
     width: 2rem;
     height: 2rem;
+}
+
+
+
+.o-nav{
+    height: 3rem;
+    background-color: rgba(251, 116, 62, 1);
+    margin: -1rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;    
+    padding-left: 2rem;
+    padding-right: 2rem;   
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.o-logo{
+    height: 3.5rem;
+    width: 14rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+.o-buscar{
+height: 3.5rem;
+width: 35%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-left: 10rem;
+}
+#buscar{
+    height: 1rem;
+    width: 90%;
+    border-radius: 15px;
+    border-color: white;
+    outline: none;
+    padding: .5rem;
+    border: 0;
+}
+
+#o-logo1{
+    height: 2.2rem;
+    width: 6rem;
+    padding: 0.5rem;
+}
+.o-logo2{
+    height: 1.5rem;
+    width: 6.5rem;
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.o-btn-linkIngrear{
+  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color:black;
+}
+
+
+/** **/
+.o-enlaces{
+    height: 5rem;
+ 
+    margin: -1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.o-enlaces2{
+    height: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    width: 30%;    
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+   
 }
