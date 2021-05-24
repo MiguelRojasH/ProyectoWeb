@@ -9,50 +9,61 @@
     <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/841492e065.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <script type="text/javascript" src="script2.js"></script>
 
 </head>
 </html>
 
 <body>
-     <!-- Header -->
-  <header>
-    <div class="o-nav">
-        <div class="o-logo" >
-            <img src="img/interfaz2/graficos-01.png" alt="" width="118" height="52">
-        </div>
-        <div class="o-buscar"> 
-            <input id="buscar" placeholder="¿Qué productos buscas?" onchange="" class="d-ints" type="text" >
-            <img src="img/interfaz2/lupa (1).svg" alt="" width="25" height="25">
-        </div>
-       
-        <div class="o-logo">
-            <div class="o-logo1">
-                <img src="img/interfaz2/carrito.svg" alt="" width="30" height="30">
-            </div>
-            
-            <div class="o-logo2">
-                <img id="user1" src="img/interfaz2/user.svg" alt="" width="30" height="30">
-                <p id="p-black">Ingresar</p>
-            </div>                                        
-        </div>               
-
+  <div class="o-nav">
+    <div class="o-logo" >
+        <img src="img/graficos-01.png" alt="" width="118" height="52">
     </div>
-</header>
+    <div class="o-buscar"> 
+        <input id="buscar" placeholder="¿Qué productos buscas?" onchange="" class="d-ints" type="text" >
+        <img src="img/lupa (1).svg" alt="" width="25" height="25">
+    </div>
+   
+    <div class="o-logo">
+        <div class="o-logo1">
+            <img src="img/carrito.svg" alt="" width="30" height="30">
+        </div>
+        <a class="o-btn-linkIngrear" href="Inicio-Sesión.html">
+
+        <div class="o-logo2">
+            
+            <img id="user1" src="img/user.svg" alt="" width="30" height="30"/>
+            <p id="p-black" class="p-black">Ingresar</p>
+       
+        </div>       
+    </a>                                 
+    </div>               
+
+</div>
+
+<!-- enlaces -->
+<div class="o-enlaces">
+    <div class="o-enlaces2">
+        <a id="p-orange" href="../ParcialPractico1inti/index.html">INICIO</a>
+        <a id="p-orange" href="../ParcialPractico1inti/productos.html">PRODUCTOS</a>
+        <a id="p-orange" href="../ParcialPractico1inti/index.html#o-quienes">QUIÉNES SOMOS</a>
+        <a id="p-orange" href="../Parcial-Practico/Contactenos.html">CONTACTENOS</a>
+    </div>
+
+</div>
+
+</div>
+
 <!-- Header -->
 
-   <!--Top Nav-->
-   <div class="topNav">
-    <ul class="s-items">
-        <a id="navItem1" class="s-navItem" href="#">Inicio</a>
-        <a id="navItem2" class="s-navItem" href="#">Productos</a>
-        <a id="navItem3" class="s-navItem" href="#">Quienes Somos</a>
-        <a id="navItem4" class="s-navItem" href="#">Contactenos</a>
-    </ul>
-</div>
 <!------->
  
     <!-- CONTENIDO  -->
+    <div class="ofertasPRO">
+      <img src="img/interfaz2/Bt_OfertaEspecial.png" alt="">
+    </div>
     <div class="ofertas">
       <div class="containerCards">
         <div>
@@ -87,8 +98,8 @@
         <ul class="s-items">
           <a id="navItem1" class="s-navItem" href="#">Búsqueda rápida: </a>
           <a id="navItem2" class="s-navItem" href="#">Precio</a>
-          <a id="navItem3" class="s-navItem" href="#">Filtro 2</a>
-          <a id="navItem4" class="s-navItem" href="#">Filtro 3</a>
+          <a id="navItem3" class="s-navItem" href="#">Marca</a>
+          <a id="navItem4" class="s-navItem" href="#">Ofertas</a>
         </ul>
     </div>
     </div>
@@ -97,7 +108,7 @@
     <div class="containerCards2">
         <div class="firstRow">
           <div class="card">
-              <img id="img" class="card-img" src="img/interfaz2/naranja.jpg" alt="Naranja" style="width:100%">
+              <img id="img" class="card-img" src="img/interfaz2/naranja.jpg" alt="Naranja" >
             <div class="container">
               <h4><b>Naranja</b></h4>
               <p>$ 1000</p>
@@ -111,8 +122,8 @@
             </div>
           </div>          
 
-          <div class="card">
-            <img id="img" class="card-img" src="img/interfaz2/uvas.jpg" alt="Uva" style="width:100%">
+        <div class="card">
+            <img id="img" class="card-img" src="img/interfaz2/uvas.jpg" alt="Uva" >
             <div class="container">
               <h4><b>Uva</b></h4>
               <p>$ 1000</p>
@@ -127,11 +138,11 @@
           </div>
   
           <div class="card">
-            <img id="img" class="card-img" src="img/interfaz2/Bt_Manzana.jpg" alt="Manzana" style="width:100%">
+            <img id="img" class="card-img" src="img/interfaz2/Bt_Manzana.jpg" alt="Manzana" >
             <div class="container">
               <h4><b>Manzana</b></h4>
               <p>$ 1000</p>
-              <img class="card-img" src="img/interfaz2/Bt_OfertaEspecial.png" alt="Card image">
+         
 
               <div class="number">        
                 <button type="button" class="button operacion" onclick="resta3()">-</button>
@@ -145,11 +156,11 @@
 
         <div class="firstRow">
           <div class="card">
-            <img id="img" class="card-img" src="img/interfaz2/sandia.jpg" alt="Sandia" style="width:100%">
+            <img id="img" class="card-img" src="img/interfaz2/sandia.jpg" alt="Sandia" >
             <div class="container">
               <h4><b>Sandia</b></h4>
               <p>$ 1000</p>
-              <img class="card-img" src="img/interfaz2/Bt_OfertaEspecial.png" alt="Card image">
+          
 
               <div class="number">        
                 <button type="button" class="button operacion" onclick="resta4()">-</button>
@@ -161,7 +172,7 @@
           </div>
   
           <div class="card">
-            <img id="img" class="card-img" src="img/interfaz2/manzanaVerde.jpg" alt="Manzana verde" style="width:100%">
+            <img id="img" class="card-img" src="img/interfaz2/manzanaVerde.jpg" alt="Manzana verde" >
             <div class="container">
               <h4><b>Manzana verde</b></h4>
               <p>$ 1000</p>
@@ -176,11 +187,11 @@
           </div>
   
           <div class="card">
-            <img id="img" class="card-img" src="img/interfaz2/Bt_Kiwi.jpg" alt="Kiwi" style="width:100%">
+            <img id="img" class="card-img" src="img/interfaz2/Bt_Kiwi.jpg" alt="Kiwi" >
             <div class="container">
               <h4><b>Kiwi</b></h4>
               <p>$ 1000</p>
-              <img class="card-img" src="img/interfaz2/Bt_OfertaEspecial.png" alt="Card image">
+         
 
               <div class="number">        
                 <button type="button" class="button operacion" onclick="resta6()">-</button>
@@ -193,11 +204,12 @@
         </div>        
     </div>
   </div>
-</body>   
+  
+ 
     <!-- FIN DEL CONTENIDO -->
 
     <!--Footer-->
-    <footer>
+
 
       <div class="footer">
 
@@ -207,9 +219,9 @@
                     <h5 class="column-title">Categoría</h5>
                     
                     <ul style="list-style-type:none;">
-                        <li><a  class="card-text" href="#">Supermercado</a></li>
+                        <li><a  class="card-text" href="../ParcialPractico1inti/index.html">Supermercado</a></li>
                         <li><a  class="card-text" href="#">Ofertas</a></li>
-                        <li><a  class="card-text" href="#">Productos</a></li>
+                        <li><a  class="card-text" href="../ParcialPractico1inti/productos.html">Productos</a></li>
                         <li><a  class="card-text" href="#">Farmacia</a></li>
                     </ul>
 
@@ -220,8 +232,8 @@
 
                     <ul style="list-style-type:none;">
                         <li><a  class="card-text" href="#" >Términos y condiciones</a></li>
-                        <li><a  class="card-text" href="#" >Contactenos</a></li>
-                        <li><a  class="card-text" href="#" >Quienes somos</a></li>
+                        <li><a  class="card-text" href="../Parcial-Practico/Contactenos.html" >Contactenos</a></li>
+                        <li><a  class="card-text" href="../ParcialPractico1inti/index.html#o-quienes" >Quienes somos</a></li>
                     </ul>
 
                 </div>
@@ -260,5 +272,5 @@
 
             </div>
     </div>      
-  </footer>
+  </body>  
   <!------->

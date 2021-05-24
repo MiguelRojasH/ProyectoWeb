@@ -4,19 +4,6 @@ body {
 }
 /*---------------------------------*/
 /* -- navbar style--*/
-.button{    
-    /*background-repeat:no-repeat; --> No borrar*/
-    border: none;
-    color: rgba(22, 109, 138, 1);    
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1rem;    
-    cursor: pointer;
-    transition-duration: 0.4s;
-
-    border-radius: 2rem / 5rem;
-}
 
 .operacion{
     border-radius: 0rem;
@@ -25,18 +12,11 @@ body {
     width: 3rem;
     color: black;
 }
-.headerNav{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items:center;
-    background: #FB743E;
-    height: 100%;
-    width: 100%;
-    margin: -1rem -1rem 1rem -1rem;
+.s-le{
+    color :white;
 }
 .o-nav{
-    height: 5rem;
+    height: 4.5rem;
     background-color: rgba(251, 116, 62, 1);
     margin: -1rem;
     padding: 1rem;
@@ -45,7 +25,8 @@ body {
     margin-bottom: 1rem;    
     padding-left: 2rem;
     padding-right: 2rem;   
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:lighter
 }
 #img{
     max-width: 30rem;
@@ -59,16 +40,17 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+    padding-left: 1rem;
     
 }
 #o-logo1{
     height: 2.2rem;
     width: 6rem;
     padding: 0.5rem;
+ 
 }
 .o-buscar{
-    height: 3.5rem;
+    padding-top: 1rem;
     width: 35%;
     display: flex;
     justify-content: space-around;
@@ -76,8 +58,10 @@ body {
     margin-left: 10rem;
 }
 .o-logo2{
-        height: 1.5rem;
-        width: 6.5rem;
+    margin-left: 3rem;
+        margin-right: 2rem;
+        height: 2.5rem;
+        width: 7.4rem;
         background-color: white;
         padding: 0.5rem;
         border-radius: 2rem;
@@ -85,8 +69,19 @@ body {
         justify-content: space-around;
         align-items: center;
 }
+.o-btn-linkIngrear{
+  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color:black;
+}
+.p-black{
+    padding-top: 1rem;
+}
+
 #buscar{
-    height: 1rem;
+    height: 2rem;
     width: 90%;
     border-radius: 15px;
     border-color: white;
@@ -100,51 +95,36 @@ body {
     
     
 }
-.s-logo{
-margin: 1rem;
-padding: 1rem;
-width: 10rem;
-height: 4rem;
-}
-.s-iconCarrito{
-    width: 3rem;
-    height: 2.5rem;
-}
-.s-ingresar{
-    width: 3rem;
-    height: 3rem;
-}
-.buscadorContainer{
-    width: auto;
-    height: 2rem;
-}
-.buscador{
-    width: 20rem;
-}
-.carritoIngresarLink{
+
+
+/** **/
+.o-enlaces{
+    height: 5rem;
+ 
+    margin: -1rem;
+    margin-bottom: 2rem;
     display: flex;
-    justify-content: space-around;
-    min-width: 15rem;
-    align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 1rem;
-    padding-right: 10rem;
-    background-color: #FB743E;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.o-enlaces2{
+    height: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    width: 30%;    
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+   
+}
 
-}
-.btnImage{
-    margin-top: 0.5rem;
-    padding-left: 4rem;
-    width:9rem;
-    height:2.5rem;
-}
 
-/* logo del header */
-.s-imgLogo {
-    width: 10rem;
-    padding: 1em;
-}
+/* FIN */
 .col-sm-2 searchBar{
     display: flex;
     flex-wrap: wrap;
@@ -158,13 +138,12 @@ height: 4rem;
     
 }
 .s-navItem{
-    color: white;
+   
     text-decoration: none;
     padding: 1em;
 }
-.s-navItem:hover {
-    color: rgba(22, 109, 138, 1);
-}
+
+
 /*---------------------------------*/
 /* top navigation bar */
 .topNav {
@@ -172,6 +151,10 @@ height: 4rem;
     justify-content: center;
     padding-right: 2rem;
     width: 100%;
+}
+.ofertasPRO{
+    margin-left: 30rem;
+    margin-bottom: 3rem;
 }
 .topNav a {
     float: left;
@@ -183,7 +166,7 @@ height: 4rem;
 }
 .topNav a:hover {
     background-color: #ddd;
-    color: black;
+    color: white;
 }
 .s-items{
     display: flex;
@@ -199,7 +182,7 @@ height: 4rem;
 /*--Contenido compras--*/
 .ofertas{
     display: flex;
-    flex-flow: wrap row;
+    flex-direction: row;
     justify-content: center;   
     width: 100%;      
 }
@@ -207,19 +190,26 @@ height: 4rem;
     display: flex;
     width: 100%;
     height: 100%;
+    margin-bottom: 1rem;
     justify-content: center;
 }
 .containerCards2{
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
+    align-items: center;
+margin-right: 15rem;
+    margin-bottom: 5rem;
+  
 }
 .card{
-    min-width: 10rem;
-    max-width: 15rem;
+
     height: auto;
+    margin: 1rem;
+}
+.card-img{
+    height: 10rem;
+    width:3rem;
 }
 .firstRow{
     display: flex;
@@ -233,22 +223,23 @@ height: 4rem;
 .mediumNav a{
     float: left;
     display: block;
-    color:rgb(0, 0, 0);
+    color:white;
     text-align: center;
     padding: 1rem 3rem;
     text-decoration: none;
 }
 .mediumNav a:hover {
     background-color: rgb(230, 126, 126);
-    color: black;
+    color: white;
 }
 .col-sm-8{
     display: flex;
     align-items: center;
 
 }
+
 .mediumNav{    
-    background-color: #FEE4DA;
+    background-color: rgba(251, 116, 62, 1);
     justify-content: center;
     margin: 0rem -1rem 1rem -1rem;
     padding-right: 2rem;
@@ -281,6 +272,7 @@ height: 4rem;
     font-family: 'Roboto', sans-serif;
 }
 .footer{
+    padding-top: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
