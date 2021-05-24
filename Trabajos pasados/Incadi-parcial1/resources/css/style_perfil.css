@@ -2,11 +2,12 @@ body {
     background: #EDEDED;
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
+
 }
 /*---------------------------------*/
 
 /*---------------------------------*/
-/* -- Heaber--*/
+/* -- Header--*/
 
 .ig-nav{
     height: 3rem;
@@ -32,10 +33,27 @@ body {
     align-items: center;
 }
 
+#ig-logo-carrito{
+    height: 2.2rem;
+    width: 6rem;
+    padding: 0.5rem;
+}
+.ig-logo-ingresar{
+    height: 1.5rem;
+    width: 6.5rem;
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 
 
 .ig-buscar{
     
+    height: 3.5rem;
     width: 35%;
     display: flex;
     justify-content: space-around;
@@ -43,47 +61,44 @@ body {
     margin-left: 10rem;
 }
 
-.ig-buscador{
-    width: 100%;
-    height: 5vh;
-    border-style: none;
-    border-radius: 8em;
+#ig-buscar{
+    height: 1rem;
+    width: 90%;
+    border-radius: 15px;
+    border-color: white;
+    outline: none;
+    padding: .5rem;
+    border: 0;
 }
 
-.ig-container-btnLink{
+.ig-topnavar{
+    height: 5rem;
+    margin: -1rem;
+    margin-bottom: 2rem;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
     flex-direction: row;
-   
-    margin: 1rem;
-    margin-right: 5rem;
-
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
-.ig-btnCar{
-    width: 3rem;
+.ig-topnavar1{
     height: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    width: 30%;    
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
 }
 
-.ig-btnIngr{
-    margin-top: 0.5rem;
-    padding-left: 4rem;
-    width:9rem;
-    height:2.5rem;
+
+#p-orange{
+    font-size: 1rem;
+    color: rgba(251, 116, 62, 1);  
 }
 
-.ig-logo{
-    margin: 1rem;
-    padding: 1rem;
-    width: 10rem;
-    height: 4rem;
-}
-
-.icon{
-    width: 1.5rem;
-    height: 1.5rem;
-}
 
 /*---------------------------------*/
 
@@ -113,48 +128,6 @@ body {
 /*---------------------------------*/
 
 /*Main*/
-.ig-nav-perfil{
-
-    
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap-reverse;
-    margin: 1rem;
-   
-    padding-bottom: 6rem ;
-    background: #EDEDED;
-    width: 100%;
-
-}
-
-.ig-perfil{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    width: 45%;
-    
-}
-
-
-.ig-datos{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: left;
-    background: white;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.019);
-    border: 0,2px solid #000;
-    padding:2rem 0rem 2rem 2rem;
-    width: 30rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    
-}
-
 
         /*Columnas*/
 /* Creación de tres columnas desiguales que flotan una al lado de la otra */
@@ -205,15 +178,15 @@ body {
         /*Columna Izquierda*/
 .ig-card{
   
-    width: 20rem;
-    height: 30rem;
-    margin-left: 0em;
+    width: 10rem;
+    height: 25rem;
+    
 
 }
 .card-img{
-    border-radius: 50px;
-    width: 10rem;
-    height: 10rem;
+    border-radius: 30px;
+    width: 20rem;
+    height: 20rem;
     display: flex;
 }
 
@@ -291,9 +264,8 @@ body {
     justify-content: space-between;
     color: white;
     font-family: 'Roboto', sans-serif;
-    width: 100%;
     height: 20rem;
-    background-color: #FBB304;
+    background:rgba(251, 116, 62, 1);
     padding-right: 5rem;
     margin: -1rem -1rem -1rem -1rem;
     padding-bottom: 1rem;
@@ -310,6 +282,7 @@ body {
 
 .ig-column{
     padding-left: 1rem;
+    align-items: center;
 }ç
 .ig-column-title{
     font-size: 1rem;
@@ -333,6 +306,10 @@ li{
     height: 1.5rem;
 }
 
+.ig-list-icon-item{
+    margin-right: 5rem;
+}
+
 .ig-derechos{
     display: flex;
     justify-content:center;
@@ -343,4 +320,9 @@ li{
 
 .ig-derechos-Minticris{
     color:white;
+}
+
+.icon{
+    width: 2rem;
+    height: 2rem;
 }
