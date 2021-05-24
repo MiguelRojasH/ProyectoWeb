@@ -77,7 +77,7 @@
 
               <div class="number">        
                 <button type="button" class="button operacion" onclick="resta()">-</button>
-                <input id="numBox1" class="s-ints" type="text" name="inNum2" value="1"><br>
+                <input id="numBox1" class="s-ints" type="text" name="inNum" value="1"><br>
                 <button type="button" class="button operacion" onclick="suma()">+</button>         
               </div>
 
@@ -106,9 +106,9 @@
               <p>$ 1000</p>
     
               <div class="number">        
-                <button type="button" class="button operacion" onclick="resta6()">-</button>
-                <input id="numBox6" class="s-ints" type="text" name="inNum2" value="1"><br>
-                <button type="button" class="button operacion" onclick="suma6()">+</button>         
+                <button type="button" class="button operacion" onclick="resta3()">-</button>
+                <input id="numBox3" class="s-ints" type="text" name="inNum3" value="1"><br>
+                <button type="button" class="button operacion" onclick="suma3()">+</button>         
               </div>
 
             </div>
@@ -126,9 +126,9 @@
                 <p>$ 1000</p>
   
                 <div class="number">        
-                  <button type="button" class="button operacion" onclick="resta()">-</button>
-                  <input id="numBox1" class="s-ints" type="text" name="inNum2" value="1"><br>
-                  <button type="button" class="button operacion" onclick="suma()">+</button>         
+                  <button type="button" class="button operacion" onclick="resta4()">-</button>
+                  <input id="numBox4" class="s-ints" type="text" name="inNum4" value="1"><br>
+                  <button type="button" class="button operacion" onclick="suma4()">+</button>         
                 </div>
   
               </div>
@@ -141,9 +141,9 @@
                 <p>$ 1000</p>
   
                 <div class="number">        
-                  <button type="button" class="button operacion" onclick="resta2()">-</button>
-                  <input id="numBox2" class="s-ints" type="text" name="inNum2" value="1"><br>
-                  <button type="button" class="button operacion" onclick="suma2()">+</button>         
+                  <button type="button" class="button operacion" onclick="resta5()">-</button>
+                  <input id="numBox5" class="s-ints" type="text" name="inNum5" value="1"><br>
+                  <button type="button" class="button operacion" onclick="suma5()">+</button>         
                 </div>
   
               </div>
@@ -157,7 +157,7 @@
       
                 <div class="number">        
                   <button type="button" class="button operacion" onclick="resta6()">-</button>
-                  <input id="numBox6" class="s-ints" type="text" name="inNum2" value="1"><br>
+                  <input id="numBox6" class="s-ints" type="text" name="inNum6" value="1"><br>
                   <button type="button" class="button operacion" onclick="suma6()">+</button>         
                 </div>
   
@@ -173,12 +173,19 @@
   </div>
   <div class="TOTAL">
             
-    <h4>Total: </h4>
-    <div class="number">        
-       
-        <input id="total" class="calculototal" type="text"  value="0"><br>
-               
+    <div class="resultado-container">
+     
+
+      <div class="resultado">
+          <h3  class="N1 NR">Total </h3>
+          <h3 class="result" id="result" >0</h3>
+          
       </div>
+
+      <div class="o-igualdad">
+        <button class="button"  onclick="onClickCalculator()" style="width: 10rem; color:white; background-color:rgba(251, 116, 62, 1);"> Caulcar </button>
+    </div>
+  </div>
 
 </div>
  
