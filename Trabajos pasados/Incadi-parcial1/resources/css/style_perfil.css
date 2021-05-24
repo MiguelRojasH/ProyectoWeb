@@ -145,9 +145,9 @@ body {
 
 /* Columna central */
 .ig-middle {
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: column;
-    align-items: right;
+    align-items: center;
     position:right;
     background: white;
     font-family: 'Roboto', sans-serif;
@@ -194,14 +194,7 @@ body {
 }
 
         /*Columna Medio*/
-.ig-container{
-    margin-top: 12rem;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    padding-bottom: 6rem ;
-    background: #EDEDED;
-}
+
 
 .ig-credenciales{
     display: flex;
@@ -237,8 +230,8 @@ body {
     border-radius: 0.5rem;
     margin: 1rem 0.5rem;
     text-decoration: none;
-    background: rgba(251, 179, 4, 1);   
-    color: white;
+    background-color: rgba(251, 116, 62, 1);  
+    
 }
 
 
