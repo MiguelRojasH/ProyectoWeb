@@ -23,10 +23,15 @@
                         <img src="recursos/carrito.svg" alt="" width="30" height="30">
                     </div>
                     
-                    <div class="o-logo2">
-                        <img id="user1" src="recursos/user.svg" alt="" width="30" height="30">
-                        <p id="p-black">Ingresar</p>
-                    </div>                                        
+                    <a class="o-btn-linkIngrear" href="../Parcial-Practico/Inicio-Sesión.html">
+                        <div class="o-logo2">
+                            
+                            <img id="user1" src="recursos/user.svg" alt="" width="30" height="30"/>
+                            <p id="p-black">Ingresar</p>
+                       
+                        </div>       
+                    </a> 
+                                                          
                 </div>               
 
             </div>
@@ -34,9 +39,9 @@
             <div class="o-enlaces">
                 <div class="o-enlaces2">
                     <a id="p-orange" href="index.html">INICIO</a>
-                    <p id="p-orange">PRODUCTOS</p>
-                    <p id="p-orange">QUIÉNES SOMOS</p>
-                    <p id="p-orange">CONTACTENOS</p>
+                    <a id="p-orange" class="actual-position">PRODUCTOS</a>
+                    <a id="p-orange" href="index.html#o-quienes">QUIÉNES SOMOS</a>
+                    <a id="p-orange" href="../Parcial-Practico/Contactenos.html">CONTACTENOS</a>
                 </div>
     
             </div>
@@ -144,45 +149,68 @@
             <div id="o-relleno">
 
             </div>
-            <!-- Footer -->
-            <div class="o-footer">
-                <div class="o-texto">
-                    <div>
-                        <h4 id="p-white">Categoría</h4>
-                        <p id="p-white">Supermercado</p>
-                        <p id="p-white">oferta</p>
-                        <p id="p-white">Productos</p>
-                        <p id="p-white">Farmacia</p>
-                    </div>
-                    <div>
-                        <h4 id="p-white">Información de interés</h4>
-                        <p id="p-white">Términos y condiciones</p>
-                        <p id="p-white">Contactenos</p>
-                        <p id="p-white">Quiénes somos</p>
-                    </div>
-                    <div class="o-redes">
-                        <h4 id="p-white">Síguenos</h4>
-                        <div class="o-enlaces3">
-                            <img id="redes" src="recursos/facebook.png" alt="" width="30" height="30">
-                            <a href="https://www.facebook.com/supermercadoslagrancolombia"> @supermercadoslagrancolombia </a>
-                        </div>
-                        <div class="o-enlaces3">
-                            <img id="redes" src="recursos/instagram.png" alt="" width="30" height="30">
-                            <a href="https://www.instagram.com/superlagrancolombia/"> @superlagrancolombia</a>
-                        </div>
-                        <div class="o-enlaces3">
-                            <img id="redes" src="recursos/whatsapp.png" alt="" width="30" height="30">
-                            <p id="p-white">PBX: (+57) (2) 433 12 15.</p>
-                        </div>
-        
-        
-                    </div>
-                </div>
-                <div class="o-graddy">
-                    <P id="p-white">@2021 Todos los derechos reservados. Miinticris.
-                        Preferencias de cookies, privacidad y condiciones.</P>
-                </div>
-            </div>      
+<!-- Footer -->
+    <div class="footer">
 
-    </body>
+        <div class="redes-sociales-nav">
+
+                <div class="column">
+                    <h5 class="column-title">Categoría</h5>
+                    
+                    <ul style="list-style-type:none;">
+                        <li><a  class="card-text" href="#">Supermercado</a></li>
+                        <li><a  class="card-text" href="#">Ofertas</a></li>
+                        <li><a  class="card-text" href="#">Productos</a></li>
+                        <li><a  class="card-text" href="#">Farmacia</a></li>
+                    </ul>
+
+                </div>
+                            
+                <div class="column">
+                    <h5 class="column-title"> Información de interés</h5>
+
+                    <ul style="list-style-type:none;">
+                        <li><a  class="card-text" href="#" >Términos y condiciones</a></li>
+                        <li><a  class="card-text" href="../Parcial-Practico/Contactenos.html" >Contactenos</a></li>
+                        <li><a  class="card-text" href="index.html#o-quienes" >Quienes somos</a></li>
+                    </ul>
+
+                </div>
+                        
+                <div class="column">
+                    
+                    <h5 class="column-title">Síguenos</h5>
+
+                        <ul style="list-style-type:none;" class="o-list-icons">
+
+                            <li class="o-list-icon-item">
+                                <a href="https://www.youtube.com/channel/UCBjKZq1V936v6GdpTW053sw" target="_blank">
+                                <img class="icon" src="recursos/002-youtube.png" alt="icono de Youtube"> 
+                            </a>
+                            </li>
+                            <li class="o-list-icon-item">
+                                <a href="https://www.facebook.com/supermercadoslagrancolombia/" target="_blank">
+                                <img class="icon" src="recursos/facebook.png" alt="icono de Facebook">
+                            </a>
+
+                            <li class="o-list-icon-item">
+                                <a href="https://www.instagram.com/superlagrancolombia/" target="_blank">
+                                <img class="icon" src="recursos/instagram.png " alt="icono de instagram"> 
+                            </a>
+                        
+                        </ul>    
+                </div>
+        </div>
+    
+            <div class="derechos">
+               
+                <div class="derechos-Minticris">
+                    <br>
+                    <p>@2021 Todos los derechos reservados. Minticris. </p>
+                </div>
+
+            </div>
+    </div>
+<!-- Footer -->
+</body>
 </html>
