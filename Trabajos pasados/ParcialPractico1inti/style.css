@@ -372,14 +372,6 @@ p{
 .o-list-icon-item{
     margin-right: 5rem;
 }
-.whatssap-icon-container{
-    display: flex;
-    flex-direction: row;
-}
-.whatsapp{
-    margin-top:0.5rem;
-    margin-left: 1rem;
-}
 
 .card-text{
     font-size: 1rem;
