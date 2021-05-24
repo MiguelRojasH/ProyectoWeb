@@ -314,3 +314,15 @@ li{
     width: 1.5rem;
     height: 1.5rem;
 }
+
+.ig-derechos{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+   padding-left: 1rem;   
+}
+
+.ig-derechos-Minticris{
+    color:white;
+}
