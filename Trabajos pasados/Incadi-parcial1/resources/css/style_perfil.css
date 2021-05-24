@@ -7,7 +7,7 @@ body {
 /*---------------------------------*/
 
 /*---------------------------------*/
-/* -- Heaber--*/
+/* -- Header--*/
 
 .ig-nav{
     height: 3rem;
@@ -129,28 +129,39 @@ body {
 
 /*Main*/
 .ig-nav-perfil{
-
-    
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap-reverse;
     margin: 1rem;
-   
+
     padding-bottom: 6rem ;
     background: #EDEDED;
     width: 100%;
-
 }
 
 .ig-perfil{
     display: flex;
+    margin-top: -2rem;
     justify-content: center;
     flex-direction: column;
     text-align: center;
     width: 45%;
-    
+}
+/*Columna Izquierda*/
+.ig-card{
+  
+    width: 20rem;
+    height: 30rem;
+    margin-left: 0em;
+
+}
+.card-img{
+    border-radius: 50px;
+    width: 10rem;
+    height: 10rem;
+    display: flex;
 }
 
 
@@ -169,6 +180,17 @@ body {
     margin-right: 2rem;
     
 }
+
+.ig-credenciales{
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+    flex-direction: column;
+    margin-right: 2rem;
+    padding-right: 2rem;
+}
+
+
 
 
         /*Columnas*/
@@ -217,20 +239,7 @@ body {
 
 }
 
-        /*Columna Izquierda*/
-.ig-card{
-  
-    width: 20rem;
-    height: 30rem;
-    margin-left: 0em;
-
-}
-.card-img{
-    border-radius: 50px;
-    width: 10rem;
-    height: 10rem;
-    display: flex;
-}
+        
 
         /*Columna Medio*/
 .ig-container{
@@ -259,11 +268,7 @@ body {
     
 }
 
-.ig-credenciales{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
+
 
 .ig-input{
     width: 100%;
