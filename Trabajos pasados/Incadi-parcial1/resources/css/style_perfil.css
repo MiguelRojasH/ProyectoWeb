@@ -128,70 +128,6 @@ body {
 /*---------------------------------*/
 
 /*Main*/
-.ig-nav-perfil{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap-reverse;
-    margin: 1rem;
-
-    padding-bottom: 6rem ;
-    background: #EDEDED;
-    width: 100%;
-}
-
-.ig-perfil{
-    display: flex;
-    margin-top: -2rem;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    width: 45%;
-}
-/*Columna Izquierda*/
-.ig-card{
-  
-    width: 20rem;
-    height: 30rem;
-    margin-left: 0em;
-
-}
-.card-img{
-    border-radius: 50px;
-    width: 10rem;
-    height: 10rem;
-    display: flex;
-}
-
-
-.ig-datos{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: left;
-    background: white;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.019);
-    border: 0,2px solid #000;
-    padding:2rem 0rem 2rem 2rem;
-    width: 30rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    
-}
-
-.ig-credenciales{
-    display: flex;
-    justify-content: space-around;
-    align-items: left;
-    flex-direction: column;
-    margin-right: 2rem;
-    padding-right: 2rem;
-}
-
-
-
 
         /*Columnas*/
 /* Creación de tres columnas desiguales que flotan una al lado de la otra */
@@ -239,7 +175,20 @@ body {
 
 }
 
-        
+        /*Columna Izquierda*/
+.ig-card{
+  
+    width: 10rem;
+    height: 25rem;
+    
+
+}
+.card-img{
+    border-radius: 30px;
+    width: 20rem;
+    height: 20rem;
+    display: flex;
+}
 
         /*Columna Medio*/
 .ig-container{
@@ -268,7 +217,11 @@ body {
     
 }
 
-
+.ig-credenciales{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
 .ig-input{
     width: 100%;
