@@ -4,6 +4,15 @@ body{
     overflow-x: hidden;
 }
 
+.o-btn-linkIngrear{
+  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color:black;
+}
+
+
 .header-nav{
 
     display: flex;
