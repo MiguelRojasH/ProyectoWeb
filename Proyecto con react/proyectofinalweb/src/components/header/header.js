@@ -1,9 +1,9 @@
 import React from 'react';
 import "./header.css"
-import Logo from "../img/graficos-01.png"
-import Lupa from "../img/lupa (1).svg"
-import Carrito from "../img/carrito.svg"
-import User from "../img/user.svg"
+import Logo from "../../img/graficos-01.png"
+import Lupa from "../../img/lupa (1).svg"
+import Carrito from "../../img/carrito.svg"
+import User from "../../img/user.svg"
 
 const header = () => (
 
