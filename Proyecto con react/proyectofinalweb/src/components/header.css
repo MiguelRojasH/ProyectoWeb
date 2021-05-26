@@ -1,0 +1,79 @@
+.img-fluid{
+    max-width: 8rem;
+    max-height: 8rem;
+}
+.navbar{
+    display: flex;
+    background-color:  rgba(251, 116, 62, 1);
+}
+
+
+.lupa{
+    max-height: 2rem;
+    max-width: 2rem;
+    margin-left: 1rem;
+    margin-top: 0.3rem;
+}
+.input-group{
+    width: 40rem;
+    min-width: 10rem;
+   
+   
+}
+.form-control{
+    text-align: center;
+}
+
+.carrito{
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.user{
+    height: 1.8rem;
+    width: 1.8rem;
+}
+.o-btn-linkIngrear{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color:black;
+    
+}
+.o-btnUser{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.3rem;
+    width: 6.8rem;
+    background-color: white;
+    border-radius: 0.5rem;
+   
+
+}
+.ingresartxt{
+   padding-top: 0.8rem;
+   padding-left: 0.3rem;
+  
+}
+.o-container-carito-user{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    width: 40%;
+   
+}
+
+
+.logo_buscador-container{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    align-items: center;
+  
+    width: 100%;
+    
+}
