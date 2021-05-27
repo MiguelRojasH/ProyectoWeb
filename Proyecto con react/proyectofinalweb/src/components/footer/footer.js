@@ -10,19 +10,19 @@ import Facebook from "../../img/045-facebook.png"
 
 const footer = () => (
 
-    <div class="footer">
+    <div className="footer">
 
-<footer class="page-footer font-small indigo">
-<div class="container text-center text-md-left">
+<footer className="page-footer font-small indigo">
+<div className="container text-center text-md-left">
 
-<div class="row">
+<div className="row">
 
-  <div class="col-md-3 mx-auto">
+  <div className="col-md-3 mx-auto">
 
    
-    <h5 class="font-weight text-uppercase mt-3 mb-4">Categoría</h5>
+    <h5 className="font-weight text-uppercase mt-3 mb-4">Categoría</h5>
 
-    <ul class="list-unstyled">
+    <ul className="list-unstyled">
       <li>
         <a href="#!">Supermercado</a>
       </li>
@@ -40,12 +40,12 @@ const footer = () => (
  
 
  
-  <div class="col-md-3 mx-auto">
+  <div className="col-md-3 mx-auto">
 
  
-    <h5 class="font-weight text-uppercase mt-3 mb-4">Información de interés</h5>
+    <h5 className="font-weight text-uppercase mt-3 mb-4">Información de interés</h5>
 
-    <ul class="list-unstyled">
+    <ul className="list-unstyled">
       <li>
         <a href="#!">Términos y Condiciones</a>
       </li>
@@ -61,30 +61,30 @@ const footer = () => (
  
 
 
-    <div class="col-md-3 mx-center">
+    <div className="col-md-3 mx-center">
 
     
-    <h5 class="font-weight text-uppercase mt-3 mb-4">Síguenos</h5>
+    <h5 className="font-weight text-uppercase mt-3 mb-4">Síguenos</h5>
 
-    <ul class="list-unstyled">
+    <ul className="list-unstyled">
             
-        <ul  class="o-list-icons">
+        <ul  className="o-list-icons">
 
-          <li class="o-list-icon-item">
+          <li className="o-list-icon-item">
               <a href="https://www.youtube.com/channel/UCBjKZq1V936v6GdpTW053sw" target="_blank">
-                  <img class="icon" src={Youtube} alt="icono de Youtube"/> 
+                  <img className="icon" src={Youtube} alt="icono de Youtube"/> 
               </a>
 
           </li>
-              <li class="o-list-icon-item">
+              <li className="o-list-icon-item">
               <a href="https://www.facebook.com/supermercadoslagrancolombia/">
-                  <img class="icon" src={Facebook}alt="icono de Facebook" target="_blank"/>
+                  <img className="icon" src={Facebook}alt="icono de Facebook" target="_blank"/>
               </a>
           </li>
 
-          <li class="o-list-icon-item">
+          <li className="o-list-icon-item">
               <a href="https://www.instagram.com/superlagrancolombia/">
-              <img class="icon" src={Intagram} alt="icono de instagram" target="_blank"/> 
+              <img className="icon" src={Intagram} alt="icono de instagram" target="_blank"/> 
               </a>
           </li>
 
@@ -102,7 +102,7 @@ const footer = () => (
 
 
 
-<div class="footer-copyright text-center py-3">© 2020 Copyright: Minticris
+<div className="footer-copyright text-center py-3">© 2020 Copyright: Minticris
 
 </div>
 

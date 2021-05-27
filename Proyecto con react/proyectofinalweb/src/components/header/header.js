@@ -4,6 +4,7 @@ import Logo from "../../img/graficos-01.png"
 import Lupa from "../../img/lupa (1).svg"
 import Carrito from "../../img/carrito.svg"
 import User from "../../img/user.svg"
+import {Link} from "react-router-dom"
 
 const header = () => (
 
@@ -40,7 +41,7 @@ const header = () => (
      
                     {/* Iniciar sesión */}
 
-                    <a className="o-btn-linkIngrear" href="">
+                    <Link className="o-btn-linkIngrear" to="/footer">
 
                         <div className="o-btnUser">
                             
@@ -49,7 +50,7 @@ const header = () => (
                     
                         </div>     
 
-                    </a>
+                    </Link>
 
                 </div>
 
