@@ -1,0 +1,101 @@
+  
+/* Footer */ 
+  body{
+    font-family: Roboto, sans-serif;
+    font-weight: lighter;
+  } 
+.footer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+    background:rgba(251, 116, 62, 1);
+
+}
+.column{
+    padding-left: 1rem;
+    align-items: center;
+}
+.column-title{
+    font-size: 1rem;
+}
+
+.redes-sociales-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    
+    width: 100%;
+}
+.a{
+    color:black;
+}
+.derechos{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+ margin-top: -1rem;
+   padding-left: 1rem;
+    
+   
+}
+
+
+.derechos-Minticris{
+    color:white;
+   
+}
+.icon{
+    width: 2rem;
+    height: 2rem;
+}
+
+.card-text{
+    font-size: 1rem;
+    
+}
+li{
+    color: white;
+    text-decoration: none;
+    line-height: 2.5rem;
+
+}
+
+ul{
+    list-style: none;
+} 
+footer{
+    background:rgba(251, 116, 62, 1);
+}
+a{
+    color: white;
+}
+h5{
+    color: white;
+    font-size: 1rem;
+    
+    
+}
+.footer-copyright{
+    color: white;
+    
+}
+.font-weight{
+    font-weight:400;
+}
+.o-list-icons{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin: 0;
+    padding:0;
+}
+.mx-center{
+   text-align: center;
+}
