@@ -8,15 +8,15 @@ import NProductos from "../components/NuestrosProductos/NuestrosProductos"
 
 
 
-function inicio() {
+function Productos() {
   return (
 
     <div>
 
      <Header></Header>
      <Navlinks></Navlinks>
-     <Banner></Banner>
-     <NProductos></NProductos>
+
+
      <Footer></Footer>
 
     </div> 
@@ -24,4 +24,4 @@ function inicio() {
   );
 }
 
-export default inicio;
+export default Productos;

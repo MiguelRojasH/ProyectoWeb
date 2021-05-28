@@ -11,14 +11,19 @@
 .o_card{
     display: flex;
     flex-direction:row ;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
-    min-width: 20rem;
-    min-height: 15rem;
-    margin: 1rem 4rem 3rem 4rem;
+    margin: 1rem 0rem 3rem 0rem;
     padding: 0%;
+    
+ 
+}
+.card{
+    max-width: 20rem;
+    max-height: 16rem;
+    border-style: none;
+    margin: 1rem;
    
-
 }
 .fonttxt{
     font-family: Roboto, sans-serif;
