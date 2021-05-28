@@ -16,7 +16,7 @@ function inicio() {
      <Header></Header>
      <Navlinks></Navlinks>
      <Banner></Banner>
-     <NProductos></NProductos>
+     <NProductos  title={"NUESTROS PRODUCTOS"}></NProductos>
      <Footer></Footer>
 
     </div> 

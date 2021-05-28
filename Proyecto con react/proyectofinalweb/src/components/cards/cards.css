@@ -1,0 +1,11 @@
+.cardtxt{
+   
+    max-width: 15rem;
+    max-height: 10rem;
+    border-radius: 2rem;
+    
+}
+.card-text{
+    font-size: 1.5rem;
+    font-weight:300;
+}

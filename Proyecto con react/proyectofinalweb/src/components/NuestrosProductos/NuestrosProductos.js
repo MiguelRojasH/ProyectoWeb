@@ -7,13 +7,13 @@ import Card from "../cards/card"
 import "./nproductos.css"
 
 
+const NuestroProductos = ({title}) => (
 
-function NuestroProductos() {
-  return (
+
 
     <div className="nproductos">
 
-            <h3 className="fonttxt">NUESTROS PRODUCTOS</h3>
+            <h3 className="fonttxt">{`${title}`}</h3>
 
             <div className="o_card">
               
@@ -27,6 +27,6 @@ function NuestroProductos() {
     </div> 
 
   );
-}
+
 
 export default NuestroProductos;

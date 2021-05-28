@@ -1,0 +1,20 @@
+.icons{
+    max-height: 3rem;
+    max-width: 3rem;
+}
+.icontxt{
+    font-size: 1rem;
+   
+}
+.iconcard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.iconbody{
+    text-align: center;
+    align-items: left;
+ 
+}
