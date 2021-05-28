@@ -17,9 +17,6 @@ function inicio() {
      <Navlinks></Navlinks>
      <Banner></Banner>
      <NProductos></NProductos>
-
-
-
      <Footer></Footer>
 
     </div> 
