@@ -46,6 +46,7 @@ function Inicio() {
                 <p className="derechostxt">@2021 Todos los derechos reservados. Minticris. <br></br></p>
             </div>
         </div>
+
 </div>
 
     );

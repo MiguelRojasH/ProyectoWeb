@@ -1,0 +1,29 @@
+.registro-container{
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.019);
+    border: 0,2px solid #000;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+
+}
+
+.regi{
+    display: flex;
+    flex-direction: column;
+}
+.registrarse{
+    display: flex;
+    justify-content:space-evenly;
+  flex-wrap: wrap;
+  padding-bottom: 2rem;
+ 
+  
+}
+.col-md-6{
+    text-align: center;
+}
+.col-md-12{
+    text-align: center;
+}

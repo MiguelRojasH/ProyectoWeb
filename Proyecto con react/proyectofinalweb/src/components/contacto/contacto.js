@@ -21,7 +21,7 @@ function contacto() {
 
             <div className="contactenos">
 
-                <h2>Contáctenos</h2>
+                <h2 className>Contáctenos</h2>
 
                 <div className="credenciales">
 
@@ -43,6 +43,7 @@ function contacto() {
                         <a className="o-btn" href="">Enviar</a>
                 
                     </div>
+                    
             </div> 
 
     </div> 
