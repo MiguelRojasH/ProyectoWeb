@@ -33,15 +33,15 @@ const header = () => (
 
                 <div className="o-container-carito-user">
 
-                    <a className="nav-link" href="#">
+                    <Link className="nav-link" to="#">
 
                         <img className="img-fluid carrito" src={Carrito} alt="" />
 
-                    </a>
+                    </Link>
      
                     {/* Iniciar sesión */}
 
-                    <Link className="o-btn-linkIngrear" to="/footer">
+                    <Link className="o-btn-linkIngrear" to="/Inicio_sesion">
 
                         <div className="o-btnUser">
                             

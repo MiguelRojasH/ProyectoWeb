@@ -1,9 +1,9 @@
 
 import React from "react"
-import Frutas from "../../img/frutas.jpg"
-import Verduras from "../../img/verduras.jpg"
-import Carne from "../../img/carne.jpg"
-import Mariscos from "../../img/mariscos.jpg" 
+import Frutas from "../../img/frutas2.jpg"
+import Verduras from "../../img/verduras2.jpg"
+import Carne from "../../img/carne2.jpg"
+import Mariscos from "../../img/mariscos2.jpg" 
 import CardsWdescription from "../cards/cardsWdescription"
 import "./nproductos.css"
 

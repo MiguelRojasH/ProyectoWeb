@@ -7,19 +7,46 @@ import Productos from "./pages/productos"
 import Contactenos from "./pages/Contactenos"
 import Inicio_sesion from "./pages/inicio-sesion"
 import Registro from "./pages/Registro"
-import {BrowserRouter,Route} from "react-router-dom" 
+import Quienes from "./pages/quienes-somos"
+import React, { useEffect } from 'react';
+import {
+    BrowserRouter,
+    Switch,
+    Route,
+    Link,
+    useLocation,
+    withRouter
+} from 'react-router-dom'
+
+
+  function _ScrollToTop(props) {
+      const { pathname } = useLocation();
+        useEffect(() => {
+            window.scrollTo(0, 0);
+        }, [pathname]);
+        return props.children
+    }
+  const ScrollToTop = withRouter(_ScrollToTop)
+
 
 function App() {
   return (
 <BrowserRouter>
-    <Route exact path="/header" component={Header}></Route>
-    <Route exact path="/footer" component={Footer}></Route>
+  <ScrollToTop>
+
     <Route exact path="/Inicio" component={Inicio}></Route>
     <Route exact path="/productos" component={Productos}></Route>
     <Route exact path="/Contactenos" component={Contactenos}></Route>
     <Route exact path="/Inicio_sesion" component={Inicio_sesion}></Route>
     <Route exact path="/Registro" component={Registro}></Route>
+    <Route exact path="/quienes-somos" component={Quienes}></Route>
+
+  </ScrollToTop>
 </BrowserRouter>
+
+
+
+
   );
 }
 

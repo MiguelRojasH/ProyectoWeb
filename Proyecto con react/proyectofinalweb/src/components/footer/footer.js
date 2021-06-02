@@ -5,7 +5,7 @@ import Intagram from "../../img/instagram.png"
 import Youtube from "../../img/002-youtube.png"
 import Facebook from "../../img/045-facebook.png"
 
-
+import {Link} from "react-router-dom"
 
 
 const footer = () => (
@@ -24,22 +24,18 @@ const footer = () => (
 
     <ul className="list-unstyled">
       <li>
-        <a href="#!">Supermercado</a>
+        <Link to="/Inicio">Supermercado</Link>
       </li>
       <li>
-        <a href="#!">Ofertas</a>
+        <Link to="#!">Ofertas</Link>
       </li>
       <li>
-        <a href="#!">Productos</a>
+        <Link to="/productos">Productos</Link>
       </li>
     </ul>
 
   </div>
   
-
- 
-
- 
   <div className="col-md-3 mx-auto">
 
  
@@ -47,14 +43,16 @@ const footer = () => (
 
     <ul className="list-unstyled">
       <li>
-        <a href="#!">Términos y Condiciones</a>
+        <Link to="#!">Términos y Condiciones</Link>
       </li>
       <li>
-        <a href="#!">Contáctenos</a>
+        <Link to="/Contactenos">Contáctenos</Link>
       </li>
       <li>
-        <a href="#!">Quienes somos</a>
+        <Link to="/quienes-somos">Quienes somos</Link>
       </li>
+
+
     </ul>
 
   </div>

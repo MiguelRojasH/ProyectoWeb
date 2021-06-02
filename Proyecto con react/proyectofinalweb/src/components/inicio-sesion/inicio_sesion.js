@@ -1,7 +1,7 @@
 import React from "react"
 import "./inicio_sesion.css"
 import Logo from "../../img/graficos-01.png"
-
+import {Link} from "react-router-dom"
 
 function Inicio() {
 
@@ -30,9 +30,9 @@ function Inicio() {
             
             <div className="o-link-container">
 
-                <a className="o-btn" href="../ParcialPractico1inti/index.html">Continuar</a>
+                <Link className="o-btn" to="/Inicio">Continuar</Link>
                 <br></br>
-                <a className="o-btn CrearCuenta"  href="../Incadi-parcial1/registro.html">Crear cuenta</a>
+                <Link className="o-btn CrearCuenta"  to="/Registro">Crear cuenta</Link>
         
             </div>
             

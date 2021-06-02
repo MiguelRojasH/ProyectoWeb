@@ -1,6 +1,6 @@
 import React from "react"
 import "./registro.css"
-import Supermercado from "../../img/supermercado.jpg"
+import {Link} from "react-router-dom"
 
 function Registro() {
 
@@ -61,7 +61,7 @@ function Registro() {
                     </div>
                     <div className="o-link-container">
                         
-                        <a className="o-btn" href="">Enviar</a>
+                        <Link className="o-btn" to="./Inicio">Aceptar</Link>
                 
                     </div>
             </div>

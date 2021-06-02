@@ -1,5 +1,6 @@
 import React from "react"
 import "./nav-links.css"
+import {Link} from "react-router-dom"
 
 
 function navlinks() {
@@ -8,16 +9,16 @@ function navlinks() {
         <div> 
             <ul className="nav justify-content-center">
             <li className="nav-item">
-                <a className="nav-link" href="#">INICIO</a>
+                <Link className="nav-link" to="/Inicio">INICIO</Link>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="#">PRODUCTOS</a>
+                <Link className="nav-link" to="/productos">PRODUCTOS</Link>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="#">QUIÉNES SOMOS</a>
+                <Link className="nav-link" to="/quienes-somos">QUIÉNES SOMOS</Link>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="#">CONTACTENOS</a>
+                <Link className="nav-link" to="/Contactenos">CONTACTENOS</Link>
             </li>
             </ul>
 
