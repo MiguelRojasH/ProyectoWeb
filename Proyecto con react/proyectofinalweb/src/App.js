@@ -1,7 +1,6 @@
 
 import './App.css';
-import Header from "../src/components/header/header.js"
-import Footer from "../src/components/footer/footer.js"
+import AOS from "aos";
 import Inicio from "../src/pages/Inicio"
 import Productos from "./pages/productos"
 import Contactenos from "./pages/Contactenos"
@@ -15,7 +14,8 @@ import {
     Route,
     Link,
     useLocation,
-    withRouter
+    withRouter,
+    Redirect
 } from 'react-router-dom'
 
 
@@ -31,15 +31,17 @@ import {
 
 function App() {
   return (
+
+
 <BrowserRouter>
   <ScrollToTop>
-
     <Route exact path="/Inicio" component={Inicio}></Route>
     <Route exact path="/productos" component={Productos}></Route>
     <Route exact path="/Contactenos" component={Contactenos}></Route>
     <Route exact path="/Inicio_sesion" component={Inicio_sesion}></Route>
     <Route exact path="/Registro" component={Registro}></Route>
     <Route exact path="/quienes-somos" component={Quienes}></Route>
+    <Route exact path="/"><Redirect to="/Inicio" /></Route>
 
   </ScrollToTop>
 </BrowserRouter>

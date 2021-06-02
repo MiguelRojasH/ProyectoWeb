@@ -2,6 +2,7 @@
 import React from "react"
 import Header from "../components/header/header.js"
 import Footer from "../components/footer/footer.js"
+import Navlinks from "../components/links/nav-links"
 import RegistroComponent from "../components/registro/registro"
 
 
@@ -13,7 +14,7 @@ function Registro() {
     <div>
 
      <Header></Header>
- 
+     <Navlinks></Navlinks>
 
      <RegistroComponent></RegistroComponent>
     
