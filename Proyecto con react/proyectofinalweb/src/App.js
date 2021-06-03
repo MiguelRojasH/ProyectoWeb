@@ -35,6 +35,7 @@ function App() {
 
 <BrowserRouter>
   <ScrollToTop>
+    
     <Route exact path="/Inicio" component={Inicio}></Route>
     <Route exact path="/productos" component={Productos}></Route>
     <Route exact path="/Contactenos" component={Contactenos}></Route>

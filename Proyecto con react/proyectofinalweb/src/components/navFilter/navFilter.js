@@ -16,46 +16,46 @@ import "./navFilter.css"
 function navFilter() {
   return (
 
- <ul class="nav nav-tabs">
+ <ul className="nav nav-tabs">
 
-<li class="nav-item">
-    <a class="nav-link active" href="#">
+<li className="nav-item">
+    <a className="nav-link active" href="#">
     <Icons img={CarneIcon} description={"Carne"}> </Icons> 
     </a>
   </li>
 
-  <li class="nav-item">
-    <a class="nav-link " href="#">
+  <li className="nav-item">
+    <a className="nav-link " href="#">
     <Icons img={OfertaIcon} description={"Ofertas"}> </Icons> 
     </a>
   </li>
 
-  <li class="nav-item">
-    <a class="nav-link" href="#">
+  <li className="nav-item">
+    <a className="nav-link" href="#">
     <Icons img={ComestiblesIcon} description={"Comestibles"}> </Icons> 
     </a>
   </li>
 
-  <li class="nav-item">
-    <a class="nav-link" href="#">
+  <li className="nav-item">
+    <a className="nav-link" href="#">
     <Icons img={FrutasIcon} description={"Frutas"}> </Icons>
     </a>
   </li>
 
-  <li class="nav-item">
-    <a class="nav-link" href="#">
+  <li className="nav-item">
+    <a className="nav-link" href="#">
     <Icons img={PezcadoIcon} description={"Pescaderia"}> </Icons> 
     </a>
   </li>
 
-  <li class="nav-item">
-    <a class="nav-link" href="#">
+  <li className="nav-item">
+    <a className="nav-link" href="#">
     <Icons img={VerdurasIcon} description={"Comestibles"}> </Icons> 
     </a>
   </li>
 
-  <li class="nav-item">
-    <a class="nav-link" href="#">
+  <li className="nav-item">
+    <a className="nav-link" href="#">
     <Icons img={PanIcon} description={"Comestibles"}> </Icons>
     </a>
   </li>

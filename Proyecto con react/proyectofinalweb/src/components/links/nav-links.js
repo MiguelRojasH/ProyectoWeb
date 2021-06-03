@@ -6,7 +6,7 @@ import {Link} from "react-router-dom"
 function navlinks() {
     return (
         
-        <div> 
+        <div id="navscroll" className="navscroll"> 
             <ul className="nav justify-content-center">
             <li className="nav-item">
                 <Link className="nav-link" to="/Inicio">INICIO</Link>
@@ -29,3 +29,22 @@ function navlinks() {
   }
   
   export default navlinks;
+
+
+
+
+//   function scrollFunction() {
+//     // if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+//       if (document.documentElement.scrollTop > 20) {
+  
+//       document.getElementById("navscroll").style.top = "0px";
+//     } else {
+//       document.getElementById("navscroll").style.top = "60px";
+//     }
+//   }
+  
+  
+//   // Evento onscroll
+//   window.onscroll = function() {
+//     scrollFunction()
+//   };
