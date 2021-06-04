@@ -1,0 +1,52 @@
+.letritas{
+    color: black;
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+}
+.letritas2{
+    font-weight: bolder;
+    color: black;
+    font-family: Roboto, sans-serif;
+
+}
+.card-link-secondary{
+    color: black;
+     font-family: Roboto, sans-serif;
+    font-weight: lighter;
+}
+span,strong{
+    color: black;
+}
+.quantity{
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    width: 3rem;
+}
+
+.btn-sum, .btn-rest{
+    background-color: white;
+    border-style:solid;
+    width: 3rem;
+    font-weight:bolder;
+}
+.quantity,.btn-sum, .btn-rest{
+    border-style:solid;
+    border-width:1px;
+    
+}
+.d-flex,.justify-content-between{
+    display: flex;
+    flex-direction: row;
+   
+   
+}
+.contenedorCompras{
+    margin: 2rem;
+}
+.ProductosCompra{
+    min-width: 100%;
+    min-height: 100%;
+}
+

@@ -1,18 +1,9 @@
- .fondo_quienes{
 
-    background: url("../../img/fondo5.png") no-repeat fixed; 
-  /* Full height */
- 
-  height: 50rem;
-  width: 100%;
-  /* Center and scale the image nicely */
-  
-
-  background-size: cover;
-
-} 
 .vacio{
-    height: 15rem;
+    height: 10rem;
+}
+.vacio2{
+  height: 2rem;
 }
 .ImagensitadeFondo{
   width: 100%;
@@ -27,7 +18,7 @@
     background: url("../../img/principalBanner.png") center top fixed; 
   /* Full height */
 
-  height: 70rem;
+  height: 100%;
   width: 100%;
   /* Center and scale the image nicely */
   
@@ -39,6 +30,7 @@
 .Contenedor-quienes{
   display: flex;
   flex-direction: column;
+  margin-bottom: 0rem;
 }
 
 
@@ -82,6 +74,7 @@
   background-color: rgb(255, 255, 255, 0.8);
   float: right ;
   margin: 2rem;
+ 
 
  }
 

@@ -1,10 +1,8 @@
 import React, { useEffect as Effect } from "react"
-import AOS from "aos";
 import "aos/dist/aos"
 import "./quienes.css"
-import Fondo from "../../img/fondo5.png"
 import Aos from "aos";
-import Bannersito from "../../img/principalBanner.png"
+
 
 
 
@@ -20,7 +18,7 @@ const quienes = () => {
             <div className="bannersito-container">
 
                 <div className="vacio"></div>
-                <div className="vacio"></div>
+      
 
 
                 <div data-aos-easing="linear" data-aos-duration="1500" data-aos="flip-left" className="card border-light mb-3 contenedortexto" >
@@ -32,9 +30,8 @@ const quienes = () => {
                     </div>
                 </div>
 
-                <div className="vacio"></div>
-                <div className="vacio"></div>
-
+                
+         
                 <div data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine"  className="card  mb-3 contenedortexto2" >
 
                     <div  className="card-header ChacharaTitulo">MISIÓN</div>
@@ -44,7 +41,7 @@ const quienes = () => {
                     </div>
                 </div>
 
-                <div className="vacio"></div>
+                
 
                 <div data-aos="fade-right"  className="card border-light mb-3 contenedortexto3" >
 
@@ -55,6 +52,7 @@ const quienes = () => {
                     </div>
 
                 </div>
+                
 
             </div>
 

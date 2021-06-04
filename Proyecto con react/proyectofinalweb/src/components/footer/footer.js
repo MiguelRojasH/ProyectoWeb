@@ -27,7 +27,7 @@ const footer = () => (
         <Link to="/Inicio">Supermercado</Link>
       </li>
       <li>
-        <Link to="#!">Ofertas</Link>
+        <Link to="/Ofertas">Ofertas</Link>
       </li>
       <li>
         <Link to="/productos">Productos</Link>

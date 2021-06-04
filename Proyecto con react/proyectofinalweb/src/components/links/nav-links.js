@@ -18,7 +18,7 @@ function navlinks() {
                 <Link className="nav-link" to="/quienes-somos">QUIÉNES SOMOS</Link>
             </li>
             <li className="nav-item">
-                <Link className="nav-link" to="/Contactenos">CONTACTENOS</Link>
+                <Link className="nav-link" to="/Contactenos">CONTÁCTENOS</Link>
             </li>
             </ul>
 
