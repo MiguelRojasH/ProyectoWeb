@@ -5,3 +5,7 @@
     flex-wrap: wrap;
     
 }
+.nav-item{
+    max-width: 10rem;
+    min-width: 5rem;
+}

@@ -70,7 +70,7 @@ const footer = () => (
 
           <li className="o-list-icon-item">
               <a href="https://www.youtube.com/channel/UCBjKZq1V936v6GdpTW053sw" target="_blank">
-                  <img className="icon" src={Youtube} alt="icono de Youtube"/> 
+                  <img className="icony" src={Youtube} alt="icono de Youtube"/> 
               </a>
 
           </li>
