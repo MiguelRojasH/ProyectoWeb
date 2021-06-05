@@ -14,7 +14,7 @@ function navlinks() {
             <li className="nav-item">
                 <Link className="nav-link" to="/productos">PRODUCTOS</Link>
             </li>
-            <li className="nav-item">
+            <li id="navCorrected" className="nav-item">
                 <Link className="nav-link" to="/quienes-somos">QUIÉNES SOMOS</Link>
             </li>
             <li className="nav-item">
