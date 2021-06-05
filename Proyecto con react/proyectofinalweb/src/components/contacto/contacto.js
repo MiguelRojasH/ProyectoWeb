@@ -31,7 +31,7 @@ function contacto() {
                     <input className="input" type="text"  />
                     <p>Asunto:</p>
                     <input className="input" type="text"  />
-                    <p>Descripción</p>
+                    <p>Descripción:</p>
                     <input className="input desc" type="text" />
             
                 

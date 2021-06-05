@@ -20,7 +20,7 @@ function navFilter() {
 
 <li className="nav-item">
     <a className="nav-link active" href="#">
-    <Icons img={CarneIcon} description={"Carne"}> </Icons> 
+    <Icons img={CarneIcon} description={"Carnes"}> </Icons> 
     </a>
   </li>
 
@@ -32,7 +32,7 @@ function navFilter() {
 
   <li className="nav-item">
     <a className="nav-link" href="#">
-    <Icons img={ComestiblesIcon} description={"Comestibles"}> </Icons> 
+    <Icons img={ComestiblesIcon} description={"Verduras"}> </Icons> 
     </a>
   </li>
 
@@ -44,13 +44,13 @@ function navFilter() {
 
   <li className="nav-item">
     <a className="nav-link" href="#">
-    <Icons img={PezcadoIcon} description={"Pescaderia"}> </Icons> 
+    <Icons img={PezcadoIcon} description={"Pescadería"}> </Icons> 
     </a>
   </li>
 
   <li className="nav-item">
     <a className="nav-link" href="#">
-    <Icons img={VerdurasIcon} description={"Comestibles"}> </Icons> 
+    <Icons img={VerdurasIcon} description={"Pan"}> </Icons> 
     </a>
   </li>
 

@@ -1,10 +1,20 @@
 .img-fluid{
     max-width: 8rem;
     max-height: 8rem;
+    
+
 }
 .navbar{
     display: flex;
     background-color:  rgb(251, 116, 62);
+    
+}
+.o-logo-container{
+    display: flex;
+    align-items: left;
+    margin-bottom: 0.4rem;
+    margin-left: -1rem;
+    
 }
 
 
@@ -62,18 +72,13 @@
 .o-container-carito-user{
     display: flex;
     flex-direction: row;
-    justify-content:flex-end;
-    width: 40%;
+    justify-content:space-around;
+    width: 100%;
    
 }
 
 
-.logo_buscador-container{
-    display: flex;
-    justify-content:space-between;
-    flex-direction: row;
-    align-items: center;
-  
-    width: 100%;
-    
-}
+
+
+
+
