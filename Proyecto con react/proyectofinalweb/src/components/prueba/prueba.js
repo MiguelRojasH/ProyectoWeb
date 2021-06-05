@@ -1,105 +1,95 @@
 import React from "react"
 import "./prueba.css"
-import $ from 'jquery'; 
+import $ from 'jquery'; import Card2 from "../cards/card2"
+
+import Carne from "../../img/carne2.jpg"
+import Chroizo from "../../img/chorizo2.jpg"
+import Costilla from "../../img/costilla2.jpg"
+import Tocino from "../../img/tocino2.jpg"
+import Pollo from "../../img/pollo2.jpg"
+import Cerdo from "../../img/cerdo2.jpg"
+import Icons from "../icons/icons"
+
+import ComestiblesIcon from "../../img/comestibles.svg"
+import CarneIcon from "../../img/carne.svg"
+import FrutasIcon from "../../img/cosecha.svg"
+import PezcadoIcon from "../../img/pescado.svg"
+import VerdurasIcon from "../../img/verduras.svg"
+import PanIcon from "../../img/un-pan.svg"
 
 const prueba = () => (
-    
 
-<div class="container">
-	<div class="">
-		<h2>Filtering divs</h2>
-	</div>
-    
-    <div>
-        <button class="btn btn-primary filter-button" data-filter="all">All</button>
-        <button class="btn btn-default filter-button" data-filter="photo">foto</button>
-        <button class="btn btn-default filter-button" data-filter="graphic">Graphic</button>
-        <button class="btn btn-default filter-button" data-filter="webdesign">Web design</button>
-    </div>
-    <br/>
-    
-    <div class="row">
-        <div class="col-md-3 filter photo">
-            <div class="each-item">
-                <img class="port-image" src="http://www.templates4all.com/wp-content/uploads/2011/09/Engon-Joomla-Corporate-Portfolio-Template.jpg"/>
-                <div class="cap1">
-                    <h3>Car show</h3>
-                    <p>A car showroom for all verities of cars to display</p>
-                </div>
-                <div class="cap2">
-                    <p class="text-center">Visit</p>
-                </div>
-                
-            </div>
+
+    <div className="container">
+        <div className="">
+            <h2>Filtering divs</h2>
+        </div>
+
+        <div>
+            <button className="btn btn-primary filter-button" data-filter="all">All</button>
+            <button className="btn btn-default filter-button" data-filter="photo">foto</button>
+            <button className="btn btn-default filter-button" data-filter="graphic">Graphic</button>
+            <button className="btn btn-default filter-button" data-filter="webdesign">Web design</button>
+
             
         </div>
-        
-        
-        
-        <div class="col-md-3 filter webdesign">
-            <div class="each-item">
-                <img class="port-image" src="http://danielsitek.cz/pic/small/daniel-sitek-portfolio_small.jpg"/>
-                <div class="cap1">
-                    <h3>Car show</h3>
-                    <p>A car showroom for all verities of cars to display</p>
-                </div>
-                <div class="cap2">
-                    <p class="text-center">Visit</p>
-                </div>
+        <br />
+
+
+
+
+        <div className="row">
+
+            {/* filter webdesign graphic  , filter photo ,ilter photo */}
+            <div className="filter webdesign">
+                <Card2 img={Carne} description={"Res"}></Card2>
             </div>
-        </div>
-        
-       
-        
-        <div class="col-md-3 filter webdesign graphic">
-            <div class="each-item">
-                <img class="port-image" src="http://paperhaus.com/images/products/shrapnel-design-handmade-double-thick-screwpost-portfolio-cover-11x14-landscape-black-anodized-aluminum-14231_detail.jpg"/>
-                <div class="cap1">
-                    <h3>Car show</h3>
-                    <p>A car showroom for all verities of cars to display</p>
-                </div>
-                <div class="cap2">
-                    <p class="text-center">Visit</p>
-                </div>
+            <div className="filter photo">
+                <Card2 img={Chroizo} description={"Chorizo"}></Card2>
             </div>
-        </div>
-        
-        <div class="col-md-3 filter photo">
-            <div class="each-item">
-                <img class="port-image" src="http://4.bp.blogspot.com/_IDQ_mBDYk9I/SsON_Or-mGI/AAAAAAAAAEs/0AchAjEekYU/s400/Portfolio-idea-3.jpg"/>
-                <div class="cap1">
-                    <h3>Car show</h3>
-                    <p>A car showroom for all verities of cars to display</p>
-                </div>
-                <div class="cap2">
-                    <p class="text-center">Visit</p>
-                </div>
+
+            <div className="filter photo">
+                <Card2 img={Costilla} description={"Costilla"}></Card2>
             </div>
+
+            <div className="filter graphic">
+                <Card2 img={Tocino} description={"Tocino"}></Card2>
+            </div>
+
+            <div className="filter graphic">
+                <Card2 img={Pollo} description={"Pollo"}></Card2>
+            </div>
+
+            <div className="filter graphic">
+                <Card2 img={Cerdo} description={"Cerdo"}></Card2>
+            </div>
+
+
         </div>
+
+
     </div>
-</div>
-   
 
-    );
 
- 
 
-    $(document).ready(function(){
+);
 
-    $(".filter-button").click(function(){
+
+
+$(document).ready(function () {
+
+    $(".filter-button").click(function () {
         var value = $(this).attr('data-filter');
-        
-        if(value == "all")
-        {
-    
+
+        if (value == "all") {
+
             $('.filter').show('1000');
         }
-        else
-        {
+        else {
 
-            $(".filter").not('.'+value).hide('3000');
-            $('.filter').filter('.'+value).show('3000');
-            
+            $(".filter").not('.' + value).hide('3000');
+            $('.filter').filter('.' + value).show('3000');
+
         }
     });
 

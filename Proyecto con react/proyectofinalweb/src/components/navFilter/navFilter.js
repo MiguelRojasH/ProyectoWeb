@@ -5,65 +5,104 @@ import Icons from "../icons/icons"
 import ComestiblesIcon from "../../img/comestibles.svg"
 import CarneIcon from "../../img/carne.svg"
 import FrutasIcon from "../../img/cosecha.svg"
-import OfertaIcon from "../../img/etiqueta (1).svg"
 import PezcadoIcon from "../../img/pescado.svg"
 import VerdurasIcon from "../../img/verduras.svg"
 import PanIcon from "../../img/un-pan.svg"
 import "./navFilter.css"
-
+import $ from 'jquery';
 
 
 function navFilter() {
   return (
 
- <ul className="nav nav-tabs">
+    <ul className="nav nav-tabs">
+    {/* ----------------- */}
 
-<li className="nav-item">
-    <a className="nav-link active" href="#">
-    <Icons img={CarneIcon} description={"Carnes"}> </Icons> 
-    </a>
-  </li>
+    <button className="btn btn-default filter-button" data-filter="carne">
+        <li className="nav-item">
 
-  <li className="nav-item">
-    <a className="nav-link " href="#">
-    <Icons img={OfertaIcon} description={"Ofertas"}> </Icons> 
-    </a>
-  </li>
+            <div className="nav-link default">
+                <Icons img={CarneIcon} description={"Carnes"}> </Icons>
+            </div>
 
-  <li className="nav-item">
-    <a className="nav-link" href="#">
-    <Icons img={ComestiblesIcon} description={"Verduras"}> </Icons> 
-    </a>
-  </li>
+        </li>
+    </button >
 
-  <li className="nav-item">
-    <a className="nav-link" href="#">
-    <Icons img={FrutasIcon} description={"Frutas"}> </Icons>
-    </a>
-  </li>
+    <button className="btn btn-default filter-button" data-filter="carne">
+        <li className="nav-item">
+            <div className="nav-link">
+                <Icons img={ComestiblesIcon} description={"Verduras"}> </Icons>
+            </div>
+        </li>
+    </button >
 
-  <li className="nav-item">
-    <a className="nav-link" href="#">
-    <Icons img={PezcadoIcon} description={"Pescadería"}> </Icons> 
-    </a>
-  </li>
+   
+    <button className="btn btn-default filter-button" data-filter="carne">
+        <li className="nav-item">
+            <div className="nav-link">
+                <Icons img={FrutasIcon} description={"Frutas"}> </Icons>
+            </div>
+        </li>
+    </button >
 
-  <li className="nav-item">
-    <a className="nav-link" href="#">
-    <Icons img={VerdurasIcon} description={"Pan"}> </Icons> 
-    </a>
-  </li>
 
-  <li className="nav-item">
-    <a className="nav-link" href="#">
-    <Icons img={PanIcon} description={"Comestibles"}> </Icons>
-    </a>
-  </li>
-  
-</ul> 
+    <button className="btn btn-default filter-button" data-filter="carne">
+        <li className="nav-item">
+            <div className="nav-link">
+                <Icons img={PezcadoIcon} description={"Pescadería"}> </Icons>
+            </div>
+        </li>
+    </button >
+
+
+    <button className="btn btn-default filter-button" data-filter="carne">
+        <li className="nav-item">
+            <div className="nav-link">
+                <Icons img={VerdurasIcon} description={"Pan"}> </Icons>
+            </div>
+        </li>
+    </button >
+
+
+    <button className="btn btn-default filter-button" data-filter="carne">
+        <li className="nav-item">
+            <div className="nav-link">
+                <Icons img={PanIcon} description={"Comestibles"}> </Icons>
+            </div>
+        </li>
+    </button >
+
+
+
+
+
+{/* VERDURAS */}
+
+</ul>
+
+
 
 
   );
 }
 
 export default navFilter;
+
+$(document).ready(function () {
+
+  $(".filter-button").click(function () {
+      var value = $(this).attr('data-filter');
+
+      if (value == "carne") {
+
+          $('.filter').show('1000');
+      }
+      else {
+
+          $(".filter").not('.' + value).hide('3000');
+          $('.filter').filter('.' + value).show('3000');
+
+      }
+  });
+
+});

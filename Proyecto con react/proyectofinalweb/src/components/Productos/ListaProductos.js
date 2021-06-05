@@ -21,8 +21,10 @@ const ListaProductos = ({title}) => (
               <h3 className="card_title">{`${title}`}</h3>
 
               <div className="o_card list">
-                  
+
+              <div className="filter webdesign">
                 <Card2 img={Carne} description={"Res"}></Card2>
+                </div>
                 <Card2 img={Chroizo} description={"Chorizo"}></Card2>
                 <Card2 img={Costilla} description={"Costilla"}></Card2>
                 <Card2 img={Tocino} description={"Tocino"}></Card2>
