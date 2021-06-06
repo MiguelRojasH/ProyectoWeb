@@ -6,7 +6,7 @@ import Navlinks from "../components/links/nav-links"
 import BannerProductos from "../components/NuestrosProductos/BannerProductos"
 import NavFilter from "../components/navFilter/navFilter"
 import ListaProductos from "../components/Productos/ListaProductos"
-
+import $ from 'jquery';
 
 
 function Productos() {
@@ -29,3 +29,25 @@ function Productos() {
 }
 
 export default Productos;
+
+
+$(document).on('click',function () {
+
+            $(".filter-button").click(function () {
+                var value = $(this).attr('data-filter');
+
+                if (value == "todos") {
+
+                    $('.filter').show('1000');
+                }
+                else {
+
+                    $(".filter").not('.' + value).hide('3000');
+                    $('.filter').filter('.' + value).show('3000');
+
+                }
+            });
+
+          });
+
+

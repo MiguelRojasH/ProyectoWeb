@@ -3,19 +3,19 @@ import React from "react"
 import Header from "../components/header/header.js"
 import Footer from "../components/footer/footer.js"
 import Navlinks from "../components/links/nav-links"
-import Ofertas from "../components/Ofertas/Ofertas"
+import CarritoCompras from "../components/Carrito/carrito"
 
 
 
 
-function Oferta() {
+function Carrito() {
   return (
 
     <div>
 
      <Header></Header>
      <Navlinks></Navlinks>
-     <Ofertas></Ofertas>
+     <CarritoCompras></CarritoCompras>
 
 
      <Footer></Footer>
@@ -25,4 +25,4 @@ function Oferta() {
   );
 }
 
-export default Oferta;
+export default Carrito;

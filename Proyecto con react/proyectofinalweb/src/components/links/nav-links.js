@@ -1,7 +1,7 @@
 import React from "react"
 import "./nav-links.css"
-import {Link} from "react-router-dom"
-
+import {NavLink} from "react-router-dom"
+import $ from 'jquery';
 
 function navlinks() {
     return (
@@ -9,16 +9,16 @@ function navlinks() {
         <div id="navscroll" className="navscroll"> 
             <ul className="nav justify-content-center">
             <li className="nav-item">
-                <Link className="nav-link" to="/Inicio">INICIO</Link>
+                <NavLink className="nav-link" to="/Inicio">INICIO</NavLink>
             </li>
             <li className="nav-item">
-                <Link className="nav-link" to="/productos">PRODUCTOS</Link>
+                <NavLink className="nav-link" to="/productos">PRODUCTOS</NavLink>
             </li>
             <li id="navCorrected" className="nav-item">
-                <Link className="nav-link" to="/quienes-somos">QUIÉNES SOMOS</Link>
+                <NavLink className="nav-link" to="/quienes-somos">QUIÉNES SOMOS</NavLink>
             </li>
             <li className="nav-item">
-                <Link className="nav-link" to="/Contactenos">CONTÁCTENOS</Link>
+                <NavLink className="nav-link" to="/Contactenos">CONTÁCTENOS</NavLink>
             </li>
             </ul>
 
@@ -30,21 +30,4 @@ function navlinks() {
   
   export default navlinks;
 
-
-
-
-//   function scrollFunction() {
-//     // if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-//       if (document.documentElement.scrollTop > 20) {
-  
-//       document.getElementById("navscroll").style.top = "0px";
-//     } else {
-//       document.getElementById("navscroll").style.top = "60px";
-//     }
-//   }
-  
-  
-//   // Evento onscroll
-//   window.onscroll = function() {
-//     scrollFunction()
-//   };
+ 

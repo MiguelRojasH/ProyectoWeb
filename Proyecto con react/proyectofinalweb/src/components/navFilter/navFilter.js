@@ -16,59 +16,62 @@ function navFilter() {
   return (
 
     <ul className="nav nav-tabs">
+
     {/* ----------------- */}
 
-    <button className="btn btn-default filter-button" data-filter="carne">
-        <li className="nav-item">
+    <button className="btn btn-default filter-button" data-filter="todos">
+        <li className="nav-item active">
 
-            <div className="nav-link default">
-                <Icons img={CarneIcon} description={"Carnes"}> </Icons>
-            </div>
+            <a className="nav-link active">
+                <Icons img={ComestiblesIcon} description={"Todo"}> </Icons>
+            </a>
 
         </li>
     </button >
 
     <button className="btn btn-default filter-button" data-filter="carne">
         <li className="nav-item">
-            <div className="nav-link">
-                <Icons img={ComestiblesIcon} description={"Verduras"}> </Icons>
-            </div>
+
+            <a className="nav-link ">
+                <Icons img={CarneIcon} description={"Carnes"}> </Icons>
+            </a>
+
         </li>
     </button >
 
    
-    <button className="btn btn-default filter-button" data-filter="carne">
+    <button className="btn btn-default filter-button" data-filter="frutas">
         <li className="nav-item">
-            <div className="nav-link">
+            <a className="nav-link ">
                 <Icons img={FrutasIcon} description={"Frutas"}> </Icons>
-            </div>
+            </a>
         </li>
     </button >
 
 
-    <button className="btn btn-default filter-button" data-filter="carne">
+    <button className="btn btn-default filter-button" data-filter="peces">
         <li className="nav-item">
-            <div className="nav-link">
+            <a className="nav-link ">
                 <Icons img={PezcadoIcon} description={"Pescadería"}> </Icons>
-            </div>
+            </a>
         </li>
     </button >
 
 
-    <button className="btn btn-default filter-button" data-filter="carne">
+    <button className="btn btn-default filter-button" data-filter="verduras">
         <li className="nav-item">
-            <div className="nav-link">
-                <Icons img={VerdurasIcon} description={"Pan"}> </Icons>
-            </div>
+            <a className="nav-link ">
+                <Icons img={VerdurasIcon} description={"Verduras"}> </Icons>
+            </a>
         </li>
     </button >
 
 
-    <button className="btn btn-default filter-button" data-filter="carne">
+    <button className="btn btn-default filter-button" data-filter="panes">
         <li className="nav-item">
-            <div className="nav-link">
-                <Icons img={PanIcon} description={"Comestibles"}> </Icons>
-            </div>
+            <a className="nav-link">
+                <Icons img={PanIcon} description={"Panes"}> </Icons>
+            </a>
         </li>
     </button >
 
@@ -76,7 +79,7 @@ function navFilter() {
 
 
 
-{/* VERDURAS */}
+
 
 </ul>
 
@@ -88,21 +91,19 @@ function navFilter() {
 
 export default navFilter;
 
-$(document).ready(function () {
-
-  $(".filter-button").click(function () {
-      var value = $(this).attr('data-filter');
-
-      if (value == "carne") {
-
-          $('.filter').show('1000');
-      }
-      else {
-
-          $(".filter").not('.' + value).hide('3000');
-          $('.filter').filter('.' + value).show('3000');
-
-      }
-  });
-
+$(document).on('click', '.nav-link.active', function() {
+  var href = $(this).attr('href').substring(1);
+  //alert(href);
+  $(this).removeClass('active');
+  $('.tab-pane[id="' + href + '"]').removeClass('active');
+  
 });
+$(document).mouseup(function(e) {
+    var container = $("nav-item"); // target ID or class
+    // if the target of the click isn't the container nor a descendant of the container
+    if (!container.is(e.target) && container.has(e.target).length === 0) {
+        // get Event here
+        $('.active').removeClass('active');
+    }
+}); 
+

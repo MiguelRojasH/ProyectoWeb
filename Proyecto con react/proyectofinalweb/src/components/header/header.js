@@ -34,7 +34,7 @@ const header = () => (
 
             <div className="col o-container-carito-user">
 
-                <Link className="nav-link" to="#">
+                <Link className="nav-link" to="/carrito">
 
                     <img className="img-fluid carrito" src={Carrito} alt="" />
 

@@ -9,3 +9,6 @@
     max-width: 10rem;
     min-width: 5rem;
 }
+.nav-item a.active {
+  color: red;
+}

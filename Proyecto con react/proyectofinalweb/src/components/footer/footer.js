@@ -27,7 +27,7 @@ const footer = () => (
                 <Link to="/Inicio">Supermercado</Link>
               </li>
               <li>
-                <Link to="/Ofertas">Ofertas</Link>
+                <Link to="/productos">Ofertas</Link>
               </li>
               <li>
                 <Link to="/productos">Productos</Link>
@@ -84,6 +84,8 @@ const footer = () => (
                     <img className="icon" src={Intagram} alt="icono de instagram"  />
                   </a>
                 </li>
+
+                
 
             </ul>
 

@@ -1,80 +1,32 @@
 import React from "react"
-import "./Ofertas.css"
+import "./carrito.css"
 import Pollo from "../../img/pollo2.jpg"
 import Costilla from "../../img/costilla2.jpg"
 
-import{ useState } from "react";
-
-
-
-
-
-var num1;
-var result;
-
-function suma() {
-    num1 = document.getElementById("numBox1").value*1;
-    console.log(num1);
-    result= ++num1;
-    document.getElementById("numBox1").value = result;
-}
-function resta() {
-    num1 = document.getElementById("numBox1").value*1;
-    console.log(num1);
-    result= --num1;
-    document.getElementById("numBox1").value = result;
-}
-
-
-function suma2() {
-    num1 = document.getElementById("numBox2").value*1;
-    console.log(num1);
-    result= ++num1;
-    document.getElementById("numBox2").value = result;
-}
-function resta2() {
-    num1 = document.getElementById("numBox2").value*1;
-    console.log(num1);
-    result= --num1;
-    document.getElementById("numBox2").value = result;
-}
-
-
-function suma3() {
-    num1 = document.getElementById("numBox3").value*1;
-    console.log(num1);
-    result= ++num1;
-    document.getElementById("numBox3").value = result;
-}
-
-
-function onClickCalculator (){
-
-    this.numero1=parseInt(document.getElementById("numBox1").value);
-    this.numero2=parseInt(document.getElementById("numBox2").value);
-
-    Calcular()
-}
-
-function Calcular (){
-
-    var result="";
-    result = (this.numero1 + this.numero2)*1000;
-    document.getElementById("result").innerHTML= result;
-    return result;
-
-//document.getElementById("result").innerHTML='< class="input resultadoI"> ' + result +'</div>'; 
-    
-}
-
-
+import { useState, useEffect } from "react";
 
 
 
 const Ofertas = () => {
 
     const [count, setCount] = useState(0);
+    const [count2, setCount2] = useState(0);
     const [numBox1, setUserNumBox1] = useState("");
+
+
+    const [number, setNumber] = useState({ one: 0, two: 0});
+    const [suma, setSuma] = useState();
+
+    const handleInput = (event) => {
+        const { name, value } = event.target;
+        setNumber({ ...number, [name]: value });}
+  
+    useEffect(() => {
+      const { one, two } = number;
+      setSuma(Number(one) *11600 + Number(two) *18000);
+    }, [number]);
+  
+      
  
     return (
 
@@ -116,22 +68,35 @@ const Ofertas = () => {
 
                                             </div>
 
-                                            <div>
-                                                {/* BOTONES AQUIIIIIII */}
+                                                {/* BOTONES AQUIIIIIII */}   
+
+                                            <div className="conatiner-btn-inputs">
+                                               
+
                                                 <div className="def-number-input number-input safari_only mb-0 w-100">
 
-                                                                                                        
-                
-
-                                                    <button className="btn-sum" type="number" onClick={() => setCount(count - 1) } >  - </button>
+                                                    <button className="btn-sum"  type="number" onClick={() => setCount(count - 1) }   >  - </button>
+                                                    
+                                                    
                                                                                         
-                                                    <input  id="numBox1" className="quantity" type="number" min="0" value={count}  />
+                                                     <input  id="numBox1"  name="one" className="quantity"  min="0" value={number.one=count} readOnly /> 
 
-                                                    <button className="btn-rest" type="number" onClick={() => setCount(count + 1)}> + </button>
+                                             
+                                                    
+
+                                                    <button className="btn-rest"   type="number" onClick={() => setCount(count + 1)}> + </button>
                                                 </div>
 
+
+                                                <button type="button" className="btn btn-primary btn-sm" onClick={handleInput }>Confirmar cantidad</button>
+
                                             </div>
+
+                                            {/* BOTONES AQUIIIIIII */}
+
                                         </div>
+
+                                          
 
                                         <div className="d-flex justify-content-between align-items-center">
                                             <div>
@@ -140,7 +105,7 @@ const Ofertas = () => {
                                                 <a href="#!" type="button" className="card-link-secondary small text-uppercase"><i
                                                     className="fas fa-heart mr-1"></i> Añadir a favoritos </a>
                                             </div>
-                                            <p className="mb-0"><span><strong id="summary">$5.600</strong></span></p>
+                                            <p className="mb-0"><span><strong id="summary">$11.600</strong></span></p>
                                         </div>
                                     </div>
                                 </div>
@@ -170,17 +135,25 @@ const Ofertas = () => {
 
                                             </div>
 
-                                            <div>
-                                                {/* BOTONES AQUIIIIIII */}
+                                                     {/* BOTONES AQUIIIIIII */}
+                                                     
+                                            <div className="conatiner-btn-inputs">
+                                             
                                                 <div className="def-number-input number-input safari_only mb-0 w-100">
 
-                                                    <button className="btn-sum"  >-</button>
+                                                    
+                                                <button className="btn-sum"  type="number" onClick={() => setCount2(count2 - 1) }   >  - </button>
+                                                    
 
-                                                    <input  id="numBox2" className="quantity" value="1" />
+                                                    <input  id="numBox2" name="two" className="quantity" value={number.two=count2} readOnly/> 
 
-                                                    <button className="btn-rest" >+</button>
+                                    
+
+                                                    
+                                            <button className="btn-sum"  type="number" onClick={() => setCount2(count2 + 1) }   >  + </button>
+                                                    
                                                 </div>
-
+                                                <button type="button" className="btn btn-primary btn-sm" onClick={handleInput }>Confirmar cantidad</button>
                                             </div>
                                         </div>
 
@@ -196,7 +169,7 @@ const Ofertas = () => {
                                                 <a href="#!" type="button" className="card-link-secondary small text-uppercase"><i
                                                     className="fas fa-heart mr-1"></i> Añadir a favoritos </a>
                                             </div>
-                                            <p className="mb-0"><span><strong id="summary">$5.600</strong></span></p>
+                                            <p className="mb-0"><span><strong id="summary">$18.000</strong></span></p>
                                         </div>
                                     </div>
                                 </div>
@@ -245,7 +218,7 @@ const Ofertas = () => {
                             <ul className="list-group list-group-flush">
                                 <li className="list-group-item d-flex justify-content-between align-items-center border-0 px-0 pb-0 letritas">
                                     Precio
-                                    <span>$25.98</span>
+                                    <span>{suma}</span>
                                 </li>
                                 <li className="list-group-item d-flex justify-content-between align-items-center px-0 letritas">
                                     Envío
@@ -258,7 +231,7 @@ const Ofertas = () => {
                                             <p className="mb-0">Envió Incluido</p>
                                         </strong>
                                     </div>
-                                    <span><strong class="result" id="result" >$53.000</strong></span>
+                                    <span><strong className="result" id="result" > {suma} </strong></span>
                                 </li>
                             </ul>
 

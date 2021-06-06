@@ -52,7 +52,7 @@
 
 }
 .icony{
-    max-width: 2rem;
+    max-width: 2.4rem;
     min-height: 2.8rem;
 }
 
@@ -79,9 +79,9 @@ a{
 h5{
     color: white;
     font-size: 1rem;
-    
-    
+      
 }
+
 .footer-copyright{
     color: white;
     
@@ -91,7 +91,7 @@ h5{
 }
 .o-list-icons{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     margin: 0;
     padding:0;
@@ -105,8 +105,8 @@ h5{
 }
 .o-list-icons {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: space-between;
     margin: 0;
     padding: 0;
 }

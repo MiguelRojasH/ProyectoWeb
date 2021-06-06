@@ -7,7 +7,7 @@ import Contactenos from "./pages/Contactenos"
 import Inicio_sesion from "./pages/inicio-sesion"
 import Registro from "./pages/Registro"
 import Quienes from "./pages/quienes-somos"
-import Ofertas from "./pages/ofertas"
+import Carrito from "./pages/carrito"
 import React, { useEffect } from 'react';
 import {
     BrowserRouter,
@@ -44,7 +44,7 @@ function App() {
     <Route exact path="/Registro" component={Registro}></Route>
     <Route exact path="/quienes-somos" component={Quienes}></Route>
 
-    <Route exact path="/Ofertas" component={Ofertas}></Route>
+    <Route exact path="/carrito" component={Carrito}></Route>
     {/* <Route exact path="/Ofertas" component={Productos}></Route> */}
 
     <Route exact path="/"><Redirect to="/Inicio" /></Route>
