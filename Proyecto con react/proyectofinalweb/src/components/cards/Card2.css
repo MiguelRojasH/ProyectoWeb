@@ -1,6 +1,7 @@
+
 .card2{
-    max-width: 10rem;
-    max-height: 10rem;
+    width: 10rem;
+    height: 7rem;
     border-radius: 1rem;
 }
 .list{
@@ -9,9 +10,58 @@
     border-radius: 3rem;
     display: flex;
     justify-content: space-around;
-    align-items: center;
    
 }
+
+
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0%;
+    padding:0%;
+    text-align: left;
+}
+
+
+
+.carrito_agregar{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+
+border: 1px solid ;
+border-color:  rgb(167, 167, 167);
+border-radius: 0.5rem;
+height: 2.5rem;
+
+}
 .card-text{
+
+    font-size: 1rem;
     font-weight: 300;
 }
+.o-carrito{
+    width: 1.3rem;
+    height: 1.3rem;
+
+}
+.agregar{
+    margin: 0%;
+    padding:0%;
+    font-size: 1.3rem;
+}
+.title{
+    text-align: left;
+    font-size: 1.2rem;
+}
+.info{
+    text-align: left;
+}
+.noCSS{
+
+    all: none;
+    color: black
+};
