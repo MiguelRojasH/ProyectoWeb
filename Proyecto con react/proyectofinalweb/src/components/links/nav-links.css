@@ -23,15 +23,9 @@
 
     
 }
+.nav-item a.active {
+    color: rgb(95, 95, 167);
+    text-decoration: underline;
+    
+  }
 
-/* #navscroll {
-    display: flex;
-    align-items: center;
-    justify-items: center;
-    justify-content: center;
-    background-color: white;
-    position: fixed ;
-    z-index: 1;
-    width: 100%;
-    transition: top 0.3s;
-  } */

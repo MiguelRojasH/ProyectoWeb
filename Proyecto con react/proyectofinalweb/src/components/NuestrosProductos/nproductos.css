@@ -1,13 +1,22 @@
 .nproductos{
     display: flex;
     flex-direction: column;
-    text-align: center;
-    margin: 0%;
-    padding: 0%;
-    
-   
+text-align: center;
     
 }
+
+.slide{
+    display: flex;
+ 
+    margin: 0rem 0rem 3rem 0rem;
+}
+
+
+.carousel-inner img {
+  
+  width: 10rem;
+  max-height: 20rem;
+  }
 .o_card{
     display: flex;
     flex-direction:row ;

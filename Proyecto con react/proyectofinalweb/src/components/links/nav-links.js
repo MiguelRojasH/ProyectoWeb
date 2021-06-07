@@ -9,16 +9,16 @@ function navlinks() {
         <div id="navscroll" className="navscroll"> 
             <ul className="nav justify-content-center">
             <li className="nav-item">
-                <NavLink className="nav-link" to="/Inicio">INICIO</NavLink>
+                <NavLink className="nav-link" to="/Inicio" activeClassName="active">INICIO</NavLink>
             </li>
             <li className="nav-item">
-                <NavLink className="nav-link" to="/productos">PRODUCTOS</NavLink>
+                <NavLink className="nav-link" to="/productos" activeClassName="active">PRODUCTOS</NavLink>
             </li>
             <li id="navCorrected" className="nav-item">
-                <NavLink className="nav-link" to="/quienes-somos">QUIÉNES SOMOS</NavLink>
+                <NavLink className="nav-link" to="/quienes-somos" activeClassName="active">QUIÉNES SOMOS</NavLink>
             </li>
             <li className="nav-item">
-                <NavLink className="nav-link" to="/Contactenos">CONTÁCTENOS</NavLink>
+                <NavLink className="nav-link" to="/Contactenos" activeClassName="active">CONTÁCTENOS</NavLink>
             </li>
             </ul>
 

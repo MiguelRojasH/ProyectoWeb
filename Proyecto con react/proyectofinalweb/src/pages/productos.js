@@ -16,7 +16,9 @@ function Productos() {
 
      <Header></Header>
      <Navlinks></Navlinks>
+     
      <BannerProductos title={"OFERTAS"}></BannerProductos>
+
       <NavFilter></NavFilter>
       <ListaProductos title={"Carne"}></ListaProductos>
      

@@ -8,10 +8,10 @@
 .nav-item{
     max-width: 10rem;
     min-width: 5rem;
+  
 }
-.nav-item a.active {
-  color: red;
+
+.btn{
+    max-width:11rem;
 }
-.icons-nav{
-  max-width: 0rem;
-}
+

@@ -6,6 +6,7 @@ import Carrito from "../../img/carrito.svg"
 import User from "../../img/user.svg"
 import { Link } from "react-router-dom"
 
+
 const header = () => (
 
 
@@ -16,11 +17,11 @@ const header = () => (
 
             {/* LOGO */}
            
-
+           
                 <div className="col-2 o-logo-container">
-
+                <Link to="/Inicio">
                         <img className="img-fluid logo" src={Logo} alt="" />
-                   
+                        </Link>
                 </div>
 
                 {/* BUSCADOR */}

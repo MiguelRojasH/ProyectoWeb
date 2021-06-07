@@ -1,5 +1,5 @@
+import React, {  useState as UseState} from 'react';
 
-import React from "react"
 import Icons from "../icons/icons"
 
 import ComestiblesIcon from "../../img/comestibles.svg"
@@ -10,19 +10,24 @@ import VerdurasIcon from "../../img/verduras.svg"
 import PanIcon from "../../img/un-pan.svg"
 import "./navFilter.css"
 import $ from 'jquery';
+import ReactDOM from 'react-dom'
+
+
 
 
 function navFilter() {
+
+
   return (
 
-    <ul className="nav nav-tabs">
+    <ul className="nav nav-tabs" id="putitos">
 
     {/* ----------------- */}
 
     <button className="btn btn-default filter-button" data-filter="todos">
-        <li className="nav-item active icons-nav">
+        <li className="nav-item icons-nav">
 
-            <a className="nav-link active">
+            <a className="nav-link active" >
                 <Icons img={ComestiblesIcon} description={"Todo"}> </Icons>
             </a>
 
@@ -32,7 +37,7 @@ function navFilter() {
     <button className="btn btn-default filter-button" data-filter="carne">
         <li className="nav-item icons-nav">
 
-            <a className="nav-link ">
+            <a className="nav-link " >
                 <Icons img={CarneIcon} description={"Carnes"}> </Icons>
             </a>
 
@@ -77,10 +82,6 @@ function navFilter() {
 
 
 
-
-
-
-
 </ul>
 
 
@@ -91,9 +92,21 @@ function navFilter() {
 
 export default navFilter;
 
-$(document).on('click', '.nav-link.active', function() {
+/* var header =  ReactDOM.render(document.getElementById("putitos"));
+var btns = ReactDOM.render(header.getElementsByClassName("nav-link"));
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });
+}
+
+ */
+
+/* $(document).on('.nav-link.active', function() {
   var href = $(this).attr('href').substring(1);
-  //alert(href);
+
   $(this).removeClass('active');
   $('.tab-pane[id="' + href + '"]').removeClass('active');
   
@@ -106,4 +119,5 @@ $(document).mouseup(function(e) {
         $('.active').removeClass('active');
     }
 }); 
-
+ */
+ 
