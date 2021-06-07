@@ -20,7 +20,7 @@ function navFilter() {
 
   return (
 
-    <ul className="nav nav-tabs" id="putitos">
+    <ul className="nav nav-tabs" id="navbar-icons">
 
     {/* ----------------- */}
 
@@ -91,33 +91,17 @@ function navFilter() {
 }
 
 export default navFilter;
-
-/* var header =  ReactDOM.render(document.getElementById("putitos"));
-var btns = ReactDOM.render(header.getElementsByClassName("nav-link"));
+/* 
+// Add active class to the current button (highlight it)
+var header = document.getElementById("nav-tabs");
+var btns = header.getElementsByClassName("btn");
 for (var i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function() {
   var current = document.getElementsByClassName("active");
-  current[0].className = current[0].className.replace(" active", "");
+  if (current.length > 0) { 
+    current[0].className = current[0].className.replace(" active", "");
+  }
   this.className += " active";
   });
-}
-
- */
-
-/* $(document).on('.nav-link.active', function() {
-  var href = $(this).attr('href').substring(1);
-
-  $(this).removeClass('active');
-  $('.tab-pane[id="' + href + '"]').removeClass('active');
-  
-});
-$(document).mouseup(function(e) {
-    var container = $("nav-item"); // target ID or class
-    // if the target of the click isn't the container nor a descendant of the container
-    if (!container.is(e.target) && container.has(e.target).length === 0) {
-        // get Event here
-        $('.active').removeClass('active');
-    }
-}); 
- */
+} */
  
