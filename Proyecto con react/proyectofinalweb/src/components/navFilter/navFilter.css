@@ -12,3 +12,6 @@
 .nav-item a.active {
   color: red;
 }
+.icons-nav{
+  max-width: 0rem;
+}

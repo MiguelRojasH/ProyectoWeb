@@ -20,7 +20,7 @@ function navFilter() {
     {/* ----------------- */}
 
     <button className="btn btn-default filter-button" data-filter="todos">
-        <li className="nav-item active">
+        <li className="nav-item active icons-nav">
 
             <a className="nav-link active">
                 <Icons img={ComestiblesIcon} description={"Todo"}> </Icons>
@@ -30,7 +30,7 @@ function navFilter() {
     </button >
 
     <button className="btn btn-default filter-button" data-filter="carne">
-        <li className="nav-item">
+        <li className="nav-item icons-nav">
 
             <a className="nav-link ">
                 <Icons img={CarneIcon} description={"Carnes"}> </Icons>
@@ -41,7 +41,7 @@ function navFilter() {
 
    
     <button className="btn btn-default filter-button" data-filter="frutas">
-        <li className="nav-item">
+        <li className="nav-item icons-nav">
             <a className="nav-link ">
                 <Icons img={FrutasIcon} description={"Frutas"}> </Icons>
             </a>
@@ -50,7 +50,7 @@ function navFilter() {
 
 
     <button className="btn btn-default filter-button" data-filter="peces">
-        <li className="nav-item">
+        <li className="nav-item icons-nav">
             <a className="nav-link ">
                 <Icons img={PezcadoIcon} description={"Pescadería"}> </Icons>
             </a>
@@ -59,7 +59,7 @@ function navFilter() {
 
 
     <button className="btn btn-default filter-button" data-filter="verduras">
-        <li className="nav-item">
+        <li className="nav-item icons-nav">
             <a className="nav-link ">
                 <Icons img={VerdurasIcon} description={"Verduras"}> </Icons>
             </a>
@@ -68,7 +68,7 @@ function navFilter() {
 
 
     <button className="btn btn-default filter-button" data-filter="panes">
-        <li className="nav-item">
+        <li className="nav-item icons-nav">
             <a className="nav-link">
                 <Icons img={PanIcon} description={"Panes"}> </Icons>
             </a>
