@@ -55,7 +55,7 @@ const Carrito = ({titulo, peso, cantidad, precio}) => {
                                         <div className="d-flex justify-content-between align-items-center">
                                             <div>
                                                 <a href="#!" type="button" className="card-link-secondary small text-uppercase mr-3"><i
-                                                    className="fas fa-trash-alt mr-1" ></i> Actualizar </a>
+                                                    className="fas fa-trash-alt mr-1" ></i> Quitar </a>
                                                 <a href="#!" type="button" className="card-link-secondary small text-uppercase"><i
                                                     className="fas fa-heart mr-1"></i> Añadir a favoritos </a>
                                             </div>
@@ -147,7 +147,7 @@ const Carrito = ({titulo, peso, cantidad, precio}) => {
                                 Confirmar compra
 </button>
 
-                            <div className="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div className="modal fade" id="exampleModal" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                 <div className="modal-dialog" role="document">
                                     <div className="modal-content">
                                         <div className="modal-header">

@@ -38,7 +38,7 @@ class MiniApi extends Component{
     } 
     
     render() {
-        window.onload= this.handleClick3();
+        this.handleClick3();
         const {data} = this.state;
         return( 
         <div>

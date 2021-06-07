@@ -3,7 +3,7 @@ import "./Card2.css"
 import Carrito from "../../img/carritoOrange.svg"
 import { Link } from "react-router-dom"
 
-const CardWdescription = ({img,description}) => (
+const CardWdescription = ({img,description,unidad,precios}) => (
     
 
 
@@ -13,7 +13,7 @@ const CardWdescription = ({img,description}) => (
         <div className="card-body">
         <p className="card-text title">{`${description}`}</p>
 
-          <p className="card-text info">Libra: 3.000</p>
+          <p className="card-text info">{`${unidad +": "+ precios}`}</p>
           <Link className="noCSS" to="#">
 
           <div className="carrito_agregar">
