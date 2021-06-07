@@ -18,6 +18,7 @@ import {
     withRouter,
     Redirect
 } from 'react-router-dom'
+import MiniApi from './components/Carrito/Api/Miniapi';
 
 
   function _ScrollToTop(props) {

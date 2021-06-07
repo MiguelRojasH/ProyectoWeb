@@ -5,7 +5,7 @@ import Lupa from "../../img/lupa (1).svg"
 import Carrito from "../../img/carrito.svg"
 import User from "../../img/user.svg"
 import { Link } from "react-router-dom"
-
+import Miniapi from '../Carrito/Api/Miniapi'
 
 const header = () => (
 
@@ -37,7 +37,7 @@ const header = () => (
 
                 <Link className="nav-link" to="/carrito">
 
-                    <img className="img-fluid carrito" src={Carrito} alt="" />
+                    <img className="img-fluid carrito" onClick={Miniapi.handleClick3} src={Carrito} alt="" />
 
                 </Link>
 
