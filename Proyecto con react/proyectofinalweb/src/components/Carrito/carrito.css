@@ -55,3 +55,16 @@ span,strong{
     min-height: 100%;
 }
 
+
+
+.modal-title{
+    color: black;
+
+}
+.modal-title{
+    font-weight: 400;
+}
+.modal-body{
+    font-weight: 300;
+}
+
