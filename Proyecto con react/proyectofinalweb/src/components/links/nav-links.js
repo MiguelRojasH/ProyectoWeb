@@ -21,10 +21,7 @@ function navlinks() {
                 <NavLink className="nav-link" to="/Contactenos" activeClassName="active">CONTÁCTENOS</NavLink>
             </li>
             </ul>
-
-
-        </div>
-  
+        </div> 
     );
   }
   
