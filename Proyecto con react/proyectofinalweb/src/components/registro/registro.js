@@ -20,12 +20,12 @@ function Registro() {
                     <div className="form-row">
                         
                         <div className="form-group col-md-6">
-                        <label for="inputEmail4">Nombre</label>
+                        <label >Nombre</label>
                         <input type="text" className="form-control regi" />
                         </div>
 
                         <div className="form-group col-md-6">
-                        <label for="inputPassword4">Apellido</label>
+                        <label >Apellido</label>
                         <input type="text" className="form-control regi"  />
                         </div>
                     </div>
