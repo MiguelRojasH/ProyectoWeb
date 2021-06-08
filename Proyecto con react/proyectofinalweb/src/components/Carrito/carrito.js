@@ -18,7 +18,7 @@ const Carrito = ({titulo, peso, cantidad, precio}) => {
     }    
     useEffect(() => {
         const { one, two } = number;
-        setSuma(Number(one) * 11600 + Number(two) * 18000);
+        setSuma(Number(one) * precio + Number(two) * 18000);
     }, [number]);
     return (
         <section className="contenedorCompras">
@@ -143,7 +143,7 @@ const Carrito = ({titulo, peso, cantidad, precio}) => {
                                     <span><strong className="result" id="result" > {suma} </strong></span>
                                 </li>
                             </ul>
-                            <button type="button" className="btn btn-primary btn-block" data-toggle="modal" data-target="#exampleModal">
+                            <button type="button" className="btn btn-primary btn-block btn-confirmar" data-toggle="modal" data-target="#exampleModal">
                                 Confirmar compra
 </button>
 

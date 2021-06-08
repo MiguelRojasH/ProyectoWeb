@@ -1,5 +1,6 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import CargarDatos from './CargarDatos'
+import { UseEffect } from 'react';
 const axios = require('axios').default;
 
 var data = {
@@ -8,15 +9,15 @@ var data = {
     cantidad: "",
     precio: ""
 }
-class MiniApi extends Component{
-    constructor(){
+class MiniApi extends Component {
+    constructor() {
         super();
         this.state = {
-            data : data,
+            data: data,
         }
     }
-    getData = (response_data) =>{
-        const{titulo, peso, cantidad, precio} = response_data;
+    getData = (response_data) => {
+        const { titulo, peso, cantidad, precio } = response_data;
         const data = {
             titulo,
             peso,
@@ -26,25 +27,32 @@ class MiniApi extends Component{
         return data;
     }
 
-    handleClick3 = () =>{
+     handleClick3 = () => {
         axios.get("https://run.mocky.io/v3/73c94c35-2533-4115-988f-81bf50bf9d0b")
-        .then((Response) =>{
-            console.log(Response);
-          //  console.log("Respuesta",this.getData(data));
-            this.setState({
-                data : this.getData(Response.data)
-            });
-        })
-    } 
-    
+            .then((Response) => {
+
+                this.setState({
+                    data: this.getData(Response.data)
+                });
+            })
+    }
+
+
+
     render() {
-        this.handleClick3();
-        const {data} = this.state;
-        return( 
+
+
+        const { data } = this.state;
+        window.onload=this.handleClick3();
+        
+        return (
+           
         <div>
-            <CargarDatos data ={data} > </CargarDatos>
+            <CargarDatos data={data} > </CargarDatos>
+     
         </div>        
-        );        
-    } 
+        );
+
+    }
 }
 export default MiniApi;

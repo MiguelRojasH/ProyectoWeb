@@ -67,6 +67,7 @@ span,strong{
 .modal-body{
     font-weight: 300;
 }
-.btn-block{
-    width:100%;
+.btn-confirmar{
+    min-width:100%;
+  
 }
