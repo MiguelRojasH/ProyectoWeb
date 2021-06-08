@@ -1,6 +1,6 @@
 import React from "react"
 import Carne from "../../img/carne2.jpg"
-import Chroizo from "../../img/chorizo2.jpg"
+import Chorizo from "../../img/chorizo2.jpg"
 import Costilla from "../../img/costilla2.jpg"
 import Tocino from "../../img/tocino2.jpg"
 import Pollo from "../../img/pollo2.jpg"
@@ -56,141 +56,141 @@ const ListaProductos = () => (
       {/* CARNES */}
 
       <div className="filter carne">
-        <Card2 img={Carne} description={"Rés"} unidad={"Libra"} precios={"5.500"}></Card2>
+        <Card2 img={Carne} description={"Rés"} unidad={"1 kg"} precios={"$12.000"}></Card2>
       </div>
 
       <div className="filter carne">
-        <Card2 img={Chroizo} description={"Chorizo"}></Card2>
+        <Card2 img={Chorizo} description={"Chorizo"} unidad={"1 kg"} precios={"$9.400"}></Card2>
       </div>
       <div className="filter carne">
-        <Card2 img={Costilla} description={"Costilla"}></Card2>
-      </div>
-
-      <div className="filter carne">
-        <Card2 img={Tocino} description={"Tocino"}></Card2>
+        <Card2 img={Costilla} description={"Costilla"} unidad={"1 kg"} precios={"$6.100"}></Card2>
       </div>
 
       <div className="filter carne">
-        <Card2 img={Pollo} description={"Pollo"}></Card2>
+        <Card2 img={Tocino} description={"Tocino"} unidad={"1 kg"} precios={"$8.300"}></Card2>
+      </div>
+
+      <div className="filter carne">
+        <Card2 img={Pollo} description={"Pollo"} unidad={"1 kg"} precios={"$10.900"}></Card2>
 
       </div>
 
       <div className="filter carne">
-        <Card2 img={Cerdo} description={"Cerdo"}></Card2>
+        <Card2 img={Cerdo} description={"Cerdo"} unidad={"1 kg"} precios={"$8.100"}></Card2>
       </div>
 
      {/* VERDURAS */}
 
      <div className="filter verduras">
-        <Card2 img={Brocoli} description={"Brócoli"}></Card2>
+        <Card2 img={Brocoli} description={"Brócoli"} unidad={"100 gr"} precios={"$2.400"}></Card2>
       </div>
 
       <div className="filter verduras">
-        <Card2 img={Cebolla} description={"Cebolla"}></Card2>
+        <Card2 img={Cebolla} description={"Cebolla"} unidad={"100 gr"} precios={"$1.000"}></Card2>
       </div>
       <div className="filter verduras">
-        <Card2 img={Cilantro} description={"Cilantro"}></Card2>
-      </div>
-
-      <div className="filter verduras">
-        <Card2 img={Pepinillo} description={"Pepinillo"}></Card2>
+        <Card2 img={Cilantro} description={"Cilantro"} unidad={"100 gr"} precios={"$800"}></Card2>
       </div>
 
       <div className="filter verduras">
-        <Card2 img={Tomate} description={"Tomate"}></Card2>
+        <Card2 img={Pepinillo} description={"Pepinillo"} unidad={"100 gr"} precios={"$3.100"}></Card2>
+      </div>
+
+      <div className="filter verduras">
+        <Card2 img={Tomate} description={"Tomate"} unidad={"100 gr"} precios={"$400"}></Card2>
 
       </div>
 
       <div className="filter verduras">
-        <Card2 img={Zanahoria} description={"Zanahoria"}></Card2>
+        <Card2 img={Zanahoria} description={"Zanahoria"} unidad={"100 gr"} precios={"$300"}></Card2>
       </div>
 
  {/* FRUTAS */}
  <div className="filter frutas">
-        <Card2 img={Arandano} description={"Arándano"}></Card2>
+        <Card2 img={Arandano} description={"Arándano"} unidad={"100 gr"} precios={"$5.900"}></Card2>
       </div>
       
       <div className="filter frutas">
-        <Card2 img={Bananas} description={"Bananas"}></Card2>
+        <Card2 img={Bananas} description={"Bananas"} unidad={"1 und"} precios={"$600"}></Card2>
       </div>
 
       <div className="filter frutas">
-        <Card2 img={Cereza} description={"Cereza"}></Card2>
+        <Card2 img={Cereza} description={"Cereza"} unidad={"100 gr"} precios={"$4.700"}></Card2>
       </div>
 
       <div className="filter frutas">
-        <Card2 img={Fresas} description={"Fresas"}></Card2>
+        <Card2 img={Fresas} description={"Fresas"} unidad={"100 gr"} precios={"$1.400"}></Card2>
       </div>
 
       <div className="filter frutas">
-        <Card2 img={Manzana} description={"Manzana"}></Card2>
+        <Card2 img={Manzana} description={"Manzana"} unidad={"100 gr"} precios={"$900"}></Card2>
       </div>
 
       <div className="filter frutas">
-        <Card2 img={Pera} description={"Pera"}></Card2>
+        <Card2 img={Pera} description={"Pera"} unidad={"100 gr"} precios={"$900"}></Card2>
       </div>
 
   {/* PEZCADERIA */}
 
   <div className="filter peces">
-        <Card2 img={Langosta} description={"Langosta"}></Card2>
+        <Card2 img={Langosta} description={"Langosta"} unidad={"100 gr"} precios={"$210.000"}></Card2>
       </div>
 
 
       <div className="filter peces">
-        <Card2 img={Atun} description={"Atún"}></Card2>
+        <Card2 img={Atun} description={"Atún"} unidad={"100 gr"} precios={"$5.700"}></Card2>
       </div>
 
 
       <div className="filter peces">
-        <Card2 img={Camaron} description={"Camarón"}></Card2>
+        <Card2 img={Camaron} description={"Camarón"} unidad={"100 gr"} precios={"$7.000"}></Card2>
       </div>
 
 
       <div className="filter peces">
-        <Card2 img={Salmon} description={"Salmón"}></Card2>
+        <Card2 img={Salmon} description={"Salmón"} unidad={"100 gr"} precios={"$6.600"}></Card2>
       </div>
 
 
       <div className="filter peces">
-        <Card2 img={Sardina} description={"Sardina"}></Card2>
+        <Card2 img={Sardina} description={"Sardina"} unidad={"100 gr"} precios={"$1.700"}></Card2>
       </div>
 
 
       <div className="filter peces">
-        <Card2 img={Tilapia} description={"Tilapia"}></Card2>
+        <Card2 img={Tilapia} description={"Tilapia"} unidad={"100 gr"} precios={"$1.400"}></Card2>
       </div>
 
    {/* PANES */}
 
    
    <div className="filter panes">
-        <Card2 img={PanCacho} description={"Pan Cacho"}></Card2>
+        <Card2 img={PanCacho} description={"Pan Cacho"} unidad={"1 und"} precios={"$250"}></Card2>
       </div>
 
       
       <div className="filter panes">
-        <Card2 img={Artesano} description={"Artesanal"}></Card2>
+        <Card2 img={Artesano} description={"Artesanal"} unidad={"1 und"} precios={"$5.200"}></Card2>
       </div>
 
       
       <div className="filter panes">
-        <Card2 img={Canela} description={"Canela"}></Card2>
+        <Card2 img={Canela} description={"Canela"} unidad={"1 und"} precios={"$6.000"}></Card2>
       </div>
 
       
       <div className="filter panes">
-        <Card2 img={Focaccia} description={"Focaccia"}></Card2>
+        <Card2 img={Focaccia} description={"Focaccia"} unidad={"1 und"} precios={"$8.000"}></Card2>
       </div>
 
       
       <div className="filter panes">
-        <Card2 img={Bollos} description={"Bollos"}></Card2>
+        <Card2 img={Bollos} description={"Bollos"} unidad={"1 und"} precios={"$3.700"}></Card2>
       </div>
 
       
       <div className="filter panes">
-        <Card2 img={Frances} description={"Francés"}></Card2>
+        <Card2 img={Baguettes} description={"Baguette"} unidad={"1 und"} precios={"$2.600"}></Card2>
       </div>
 
     </div>
