@@ -38,8 +38,8 @@ const Carrito = ({titulo, peso, cantidad, precio}) => {
                                         <div className="d-flex justify-content-between">
                                             <div>{/* Datos que se conectan con la api */}
                                                 <h5 className="letritas">{`${titulo}`}</h5>
-                                                <p className="mb-3  text-uppercase small letritas">{`PESO: ${peso}`}</p>
-                                                <p className="mb-2  text-uppercase small letritas">{`PIEZAS:${cantidad}`}</p>
+                                                <p className="mb-3  text-uppercase small letritas">{`Peso: ${peso}`}</p>
+                                                <p className="mb-2  text-uppercase small letritas">{`Cantidad:${cantidad}`}</p>
                                             </div>
                                             {/* BOTONES AQUIIIIIII */}
                                             <div className="conatiner-btn-inputs">
@@ -76,7 +76,7 @@ const Carrito = ({titulo, peso, cantidad, precio}) => {
                                             <div>
                                                 <h5 className="letritas">Costillas </h5>
                                                 <p className="mb-3  text-uppercase small letritas">Peso: 3Kg</p>
-                                                <p className="mb-2  text-uppercase small letritas">Piezas: 8</p>
+                                                <p className="mb-2  text-uppercase small letritas">Cantidad: 8</p>
                                             </div>
                                             {/* BOTONES AQUIIIIIII */}
                                             <div className="conatiner-btn-inputs">
