@@ -59,7 +59,7 @@ const Carrito = ({titulo, peso, cantidad, precio}) => {
                                                 <a href="#!" type="button" className="card-link-secondary small text-uppercase"><i
                                                     className="fas fa-heart mr-1"></i> Añadir a favoritos </a>
                                             </div>
-                                            <p className="mb-0"><span><strong id="summary">${`${precio}`}</strong></span></p>
+                                            <p className="mb-0"><span><strong id="summary">${`${new Intl.NumberFormat().format(precio)}`}</strong></span></p>
                                         </div>
                                     </div>
                                 </div>
@@ -137,7 +137,7 @@ const Carrito = ({titulo, peso, cantidad, precio}) => {
                                     <div>
                                         <strong>Total</strong>
                                         <strong>
-                                            <p className="mb-0">Envió Incluido</p>
+                                            <p className="mb-0">Envío Incluido</p>
                                         </strong>
                                     </div>
                                     <span><strong className="result" id="result" > {suma} </strong></span>

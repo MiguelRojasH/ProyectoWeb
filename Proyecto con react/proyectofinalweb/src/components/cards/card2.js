@@ -26,7 +26,7 @@ const CardWdescription = ({img,description,unidad,precios}) => (
 
     </div> 
 
-   
+
 
     );
  

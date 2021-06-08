@@ -26,7 +26,7 @@ const header = () => (
 
                 {/* BUSCADOR */}
                 <div className="col-8 input-group rounded">
-                    <input type="search" className="form-control rounded" placeholder="¿Qué estas buscando?" aria-label="Search"
+                    <input type="search" className="form-control rounded" placeholder="¿Qué estás buscando?" aria-label="Search"
                         aria-describedby="search-addon" />
                     <img className="img-fluid lupa" src={Lupa} alt="" />
                 </div>
