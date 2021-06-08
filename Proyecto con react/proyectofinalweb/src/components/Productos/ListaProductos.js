@@ -56,7 +56,7 @@ const ListaProductos = () => (
       {/* CARNES */}
 
       <div className="filter carne">
-        <Card2 img={Carne} description={"Rés"}></Card2>
+        <Card2 img={Carne} description={"Rés"} unidad={"Libra"} precios={"5.500"}></Card2>
       </div>
 
       <div className="filter carne">
