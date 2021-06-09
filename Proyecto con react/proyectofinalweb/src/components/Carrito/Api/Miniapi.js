@@ -29,7 +29,7 @@ class MiniApi extends Component{
     handleClick3 = () =>{
         axios.get("https://run.mocky.io/v3/ca8c3b7b-c750-4dc6-899c-fc00459e429a")
         .then((Response) =>{
-          //  console.log("Respuesta",this.getData(data));
+            console.log("Respuesta",this.getData(data));
             this.setState({
                 data : this.getData(Response.data)
             });

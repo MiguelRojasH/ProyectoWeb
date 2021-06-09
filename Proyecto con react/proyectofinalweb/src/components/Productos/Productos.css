@@ -1,11 +1,19 @@
-.card2{
-    max-width: 10rem;
-    min-height: 7.5rem;
-}
+
 .filter{
     margin-left: 2rem;
     margin-bottom: 2rem;
    border-radius: 1rem;
     background-color: white;
     
+}
+.o_card.list{
+    margin: 0rem 5rem 0rem 5rem;
+}
+.card-body{
+    margin-left: 0.3rem;
+}
+.card2{
+    min-width: 10rem;
+    min-height: 8rem;
+    border-radius: 1rem;
 }
